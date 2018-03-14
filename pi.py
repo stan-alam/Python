@@ -1,10 +1,3 @@
-# Python
-for learning(s) core Python from 2.7 to 3.x  (mostly 3.x)
-
-because it's Py(thon) day
-
-```Python
-
 import random as dot
 import math as m
 
@@ -32,5 +25,3 @@ print(pi)
 # Print difference
 difference = m.fabs(pi - m.pi)
 print(difference)
-
-```
