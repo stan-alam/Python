@@ -1,36 +1,32 @@
 # Python
 for learning(s) core Python from 2.7 to 3.x  (mostly 3.x)
 
-because it's Py(thon) day
+## Programming in Python
 
-```Python
 
-import random as dot
-import math as m
 
-# Total number of random points.
-total = 1000000
-# Points contained in the circle.
-inside = 0
+## Python Fluency
 
-#Main loop
-for i in range(0, total):
-# Place random dots in unit square
-    x2 = dot.random()**2
-    y2 = dot.random()**2
-    # Check if inside circle,
-    # increment counter if inside
-    if m.sqrt(x2 + y2) < 1.0:
-        inside += 1
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%200.png" width="65%" height="65%">
+</p>
 
-# We're only doing positive x/y coords,
-# so multiply by four.
-pi = (float(inside) / total) * 4
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%201.png" width="65%" height="65%">
+</p>
 
-# Print result
-print(pi)
-# Print difference
-difference = m.fabs(pi - m.pi)
-print(difference)
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%202.png" width="65%" height="65%">
+</p>
 
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%203.png" width="65%" height="65%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%204.png" width="65%" height="65%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%205.png" width="65%" height="65%">
+</p>
