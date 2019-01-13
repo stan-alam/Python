@@ -55,3 +55,11 @@ class FrenchDeck:
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth%20-%208.png" width="70%" height="70%">
 </p>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-9.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-10.svg" width="80%" height="80%">
+</a>
