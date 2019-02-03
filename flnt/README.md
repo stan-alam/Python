@@ -63,3 +63,31 @@ class FrenchDeck:
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-10.svg" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-11.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-12.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-13.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-14.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-15.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-16.svg" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/flnt/chap/01/fpyth-17.svg" width="80%" height="80%">
+</a>
