@@ -7,3 +7,49 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%200.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%201.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%202.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%203.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%204.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%205.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%206.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%207.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%208A.png" width="80%" height="80%">
+</a>
+
+```Python
+
+```code block
+
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%208B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%209.png" width="80%" height="80%">
+</a>
