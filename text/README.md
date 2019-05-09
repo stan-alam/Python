@@ -73,3 +73,7 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2014.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2015.png" width="80%" height="80%">
+</a>
