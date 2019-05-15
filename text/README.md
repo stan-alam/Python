@@ -150,3 +150,19 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2033.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2034.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2035.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2036.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2037.png" width="80%" height="80%">
+</a>
