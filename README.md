@@ -172,6 +172,37 @@ for learning(s) core Python from 2.7 to 3.x  (mostly 3.x)
   <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2037.png" width="80%" height="80%">
 </a>
 
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2038.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2039.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2040A.png" width="80%" height="80%">
+</a>
+
+```Python
+#code block
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2040B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2041.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2042.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%2043.png" width="80%" height="80%">
+</a>
+
 ## Programming in Python
 
 ## Python Fluency
