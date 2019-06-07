@@ -1,7 +1,5 @@
 ## Algorithms in Python
 
-[ ] - Bubble Sorting
-
-[ ] - Select Sorting
-
-[ ] - Insert Sorting
+- [X] Bubble Sort
+- [ ] Select Sort
+- [ ] Insert Sort
