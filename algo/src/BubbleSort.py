@@ -1,37 +1,22 @@
 #!/usr/bin/python
+
 import sys
 
 def sort(array):
-    length = len(array) - 1
-    min_index = 0
-
-for i in range(0, length):
-    min_index = i
-    min_value = array[min_index]
-
-for j in range(i, length):
-    if min_value > array[j + 1]:
-        min_value = array[j + 1]
-        min_index = j + 1
-
-if i != min_index:
-    temp = array[i]
-    array[i] = array[min_index]
-    array[min_index] = temp
-
+    length = len(array)
+    for i in range(0, length - 1):
+        for j in range(0, length - 1):
+            if array[j] > array[ j + 1 ]:
+                tag = array[j]
+                array[j] = array[j + 1]
+                array[j + 1] = tag
 def main():
-    grades = [
-        80,
-        60,
-        30,
-        65,
-        78,
-        20,
-        ]
+    grades = [85, 90, 65, 70, 92, 97]
 
-sort(grades)
-for score in grades:
-    print (score, ',', end == '')
-    if __name__ == '__main__':
+    sort(grades)
 
-        main()
+    for grade in grades:
+        print(grade, ", ", end = "")
+
+if __name__ == "__main__":
+    main()
