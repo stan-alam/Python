@@ -114,9 +114,73 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2015B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2016.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2016.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2017.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A.png" width="80%" height="80%">
+</a>
+
+```python
+# code block
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019A.png" width="80%" height="80%">
+</a>
+
+```python
+# code block
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2020.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021A.png" width="80%" height="80%">
+</a>
+
+```python
+# code block
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2022.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023A.png" width="80%" height="80%">
+</a>
+
+```python
+# code block
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2024.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2025.png" width="80%" height="80%">
 </a>
