@@ -74,7 +74,7 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010A_edited.png" width="80%" height="80%">
 </a>
 
 ```Python
@@ -122,7 +122,7 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A_edit.png" width="80%" height="80%">
 </a>
 
 ```python
