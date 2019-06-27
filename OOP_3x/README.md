@@ -184,3 +184,56 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2025.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2026A.png" width="80%" height="80%">
+</a>
+
+https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%201.png
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2026B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2027.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2028.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2029.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2030.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2031.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2032.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033A.png" width="80%" height="80%">
+</a>
+
+```python
+# 27.A
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033B.png" width="80%" height="80%">
+</a>
+
+```python
+# UML sequence diagram
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2034.png" width="80%" height="80%">
+</a>
