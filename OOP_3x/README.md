@@ -32,12 +32,13 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
 ```text
 Graph 11.A
 ```
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" width="50%" height="40%">
-</a>
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" width="50%" height="50%">
+</p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204B.png" width="50%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204B.png" width="80%" height="80%">
 </a>
 
 <a>
