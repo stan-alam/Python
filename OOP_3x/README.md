@@ -33,7 +33,7 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
 Graph 11.A
 ```
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" width="70%" height="70%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" width="40%" height="40%">
 </a>
 
 <a>
