@@ -223,9 +223,12 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033A.png" width="80%" height="80%">
 </a>
 
-```python
-# 27.A
+```text
+Graph 27.A
 ```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/27A.svg" width="50%" height="50%">
+</a>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033B.png" width="80%" height="80%">
@@ -235,7 +238,7 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 UML Sequence Diagram
 ```
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" width="50%" height="50%">
 </a>
 
 <a>
