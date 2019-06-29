@@ -230,9 +230,12 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033B.png" width="80%" height="80%">
 </a>
-**UML Sequence Diagram**
+
+```text
+UML Sequence Diagram
+```
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" width="100%" height="100%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" width="80%" height="80%">
 </a>
 
 <a>
