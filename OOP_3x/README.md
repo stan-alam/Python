@@ -182,7 +182,7 @@ Graph 21.A
 ```
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/21A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/21A.svg" width="100%" height="100%">
 </p>
 
 <a>
