@@ -250,9 +250,9 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 ```Python
 # Graph 29A  
 ```
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/29A.svg" width="50%" height="50%">
-</a>
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/29A.svg" width="75%" height="75%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2036B.png" width="80%" height="80%">
@@ -269,9 +269,9 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 ```Python   
 # Graph 30A
 ```
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/30A.svg" width="50%" height="50%">
-</a>
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/30A.svg" width="75%" height="75%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2038B.png" width="80%" height="80%">
@@ -284,6 +284,6 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 ```Python  
 # Graph 31A
 ```
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/31A.svg" width="50%" height="50%">
-</a>
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/301.svg" width="75%" height="75%">
+</p>
