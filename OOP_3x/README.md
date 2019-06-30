@@ -285,5 +285,5 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 # Graph 31A
 ```
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/301.svg" width="75%" height="75%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/31.svg" width="75%" height="75%">
 </p>
