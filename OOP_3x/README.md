@@ -141,9 +141,13 @@ Graph 14.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A_edit.png" width="80%" height="80%">
 </a>
 
-```python
-# 18.A
+```text
+Graph 18.A
 ```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/18A.svg" width="50%" height="50%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018B.png" width="80%" height="80%">
