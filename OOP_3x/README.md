@@ -53,9 +53,13 @@ Graph 11.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207A.png" width="80%" height="80%">
 </a>
 
-```Python
-#Graph 12.A
+```text
+Graph 12.A
 ```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/12A.svg" width="50%" height="50%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207B.png" width="80%" height="80%">
