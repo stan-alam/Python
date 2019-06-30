@@ -4,7 +4,7 @@ Objective : Finish basic OOP in Python 3.8
 
 **Motivation**
 
-Learn OOP principles as they *apply* in Python 3.x, using Python 3.8. Go beyond simple administration scripting and/or hacks.
+Learn OOP principles as they *apply* to Python 3.x, using Python 3.8. Go beyond simple administration scripting and/or hacks.
 In anticipation for specialized programming in Python
 including Database Programming with PostGreSQL, Network Programming, MQTT.
 (06.14.2019)
@@ -29,10 +29,6 @@ including Database Programming with PostGreSQL, Network Programming, MQTT.
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204A.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 11.A
-```
-
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" width="50%" height="50%">
 </p>
@@ -53,10 +49,6 @@ Graph 11.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207A.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 12.A
-```
-
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/12A.svg" width="50%" height="50%">
 </p>
@@ -64,10 +56,6 @@ Graph 12.A
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207B.png" width="80%" height="80%">
 </a>
-
-```text
-Graph 13.A
-```
 
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/13A.svg" width="50%" height="50%">
@@ -88,10 +76,6 @@ Graph 13.A
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010A_edited.png" width="80%" height="80%">
 </a>
-
-```text
-Graph 14.A
-```
 
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/14A.svg" width="50%" height="50%">
@@ -121,10 +105,6 @@ Graph 14.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2015A.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 16.A
-```
-
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/16A.svg" width="50%" height="50%">
 </p>
@@ -145,10 +125,6 @@ Graph 16.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A_edit.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 18.A
-```
-
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/18A.svg" width="50%" height="50%">
 </p>
@@ -160,10 +136,6 @@ Graph 18.A
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019A.png" width="80%" height="80%">
 </a>
-
-```text
-Graph 19.A
-```
 
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/19A.svg" width="50%" height="50%">
@@ -181,10 +153,6 @@ Graph 19.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021A.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 20.A
-```
-
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/20A.svg" width="50%" height="50%">
 </p>
@@ -200,10 +168,6 @@ Graph 20.A
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023A.png" width="80%" height="80%">
 </a>
-
-```text
-Graph 21.A
-```
 
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/21A.svg" width="100%" height="100%">
@@ -259,9 +223,6 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033A.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 27.A
-```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/27A.svg" width="100%" height="100%">
 </a>
@@ -270,9 +231,6 @@ Graph 27.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033B.png" width="80%" height="80%">
 </a>
 
-```text
-UML Sequence Diagram
-```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" width="80%" height="80%">
 </a>
