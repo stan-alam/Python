@@ -247,9 +247,6 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2036A.png" width="80%" height="80%">
 </a>
 
-```Python
-# Graph 29A  
-```
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/29A.svg" width="75%" height="75%">
 </p>
@@ -266,9 +263,6 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2038A.png" width="80%" height="80%">
 </a>
 
-```Python   
-# Graph 30A
-```
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/30A.svg" width="75%" height="75%">
 </p>
@@ -294,7 +288,7 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/32A.svg" width="75%" height="75%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/32A.svg" width="50%" height="50%">
 </p>
 
 <a>
