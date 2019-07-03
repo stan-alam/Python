@@ -321,6 +321,10 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%204.png" width="80%" height="80%">
 </a>
 
+```Python
+# 38A  
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%205.png" width="80%" height="80%">
 </a>
