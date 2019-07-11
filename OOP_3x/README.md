@@ -531,3 +531,60 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 ```Python   
 # code block 60A
 ```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2036B.png" width="80%" height="80%">
+</a>
+
+```Python
+# 60B ScreenCapture
+```
+```Python  
+#Code block 61.A
+
+```
+
+```text
+ScreenCapture 61.B
+
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2037AB.png" width="80%" height="80%">
+</a
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2038A.png" width="80%" height="80%">
+</a>
+
+```Python
+# code block 62.A  
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2038B.png" width="80%" height="80%">
+</a>
+
+```Python
+# code block 63.A  
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2038C.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2039.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2040.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2041.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2042.png" width="80%" height="80%">
+</a>
