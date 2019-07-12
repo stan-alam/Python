@@ -588,3 +588,75 @@ ScreenCapture 61.B
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2042.png" width="80%" height="80%">
 </a>
+
+# 03
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%200.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%201.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%202.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%203.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%204A.png" width="80%" height="80%">
+</a>
+
+```text
+# code block 71.A
+
+# ScreenCapture 71.B
+
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%204B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%205A.png" width="80%" height="80%">
+</a>
+
+```Python  
+
+# CodeBlock 72.A
+
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%205B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%206A.png" width="80%" height="80%">
+</a>
+
+```text
+
+ScreenCapture 72.A
+
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%206B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%207A.png" width="80%" height="80%">
+</a>
+
+```text
+
+Code Block 73.A, 73.B ScreenCapture
+
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%207B.png" width="80%" height="80%">
+</a>
