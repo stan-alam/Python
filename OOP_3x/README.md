@@ -735,14 +735,14 @@ Code Block 73.A, 73.B ScreenCapture
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%20120A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020A.png" width="80%" height="80%">
 </a>
 
 ```text
 # Code Block 80.A, ScreenCapture 81.A
 ```
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%20120B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020B.png" width="80%" height="80%">
 </a>
 
 <a>
