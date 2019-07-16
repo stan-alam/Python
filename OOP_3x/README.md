@@ -817,3 +817,43 @@ ScreenCapture
 CodeBlock 88.A, ScreenCapture 88.B  
 
 ```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2033.png" width="80%" height="80%">
+</a>
+
+```text
+
+ScreenCapture 89.A  
+
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2035A.png" width="80%" height="80%">
+</a>
+
+```Python  
+
+# Code block 90.A
+
+```   
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2035B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2036A.png" width="80%" height="80%">
+</a>
+
+```Python  
+
+# Code block 91.A
+
+```   
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2036B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2037.png" width="80%" height="80%">
+</a>
