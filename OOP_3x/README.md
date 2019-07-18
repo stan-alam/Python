@@ -857,3 +857,22 @@ ScreenCapture 89.A
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2037.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2038.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2039.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2040.png" width="80%" height="80%">
+</a>
+
+```text
+# screencapture 93.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2041.png" width="80%" height="80%">
+</a>
