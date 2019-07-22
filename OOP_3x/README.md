@@ -668,7 +668,7 @@ class LongNameDict(dict):
 **73.B ScreenCapture**
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/73Bscreencap.png" width="100%" height="100%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/73Bscreencap.png" width="90%" height="90%">
 </a>
 
 <a>
