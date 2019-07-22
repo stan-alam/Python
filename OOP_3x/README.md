@@ -651,11 +651,21 @@ ScreenCapture 72.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%207A.png" width="80%" height="80%">
 </a>
 
-```text
+```Python
 
-Code Block 73.A, 73.B ScreenCapture
+#Code Block 73.A,
+
+class LongNameDict(dict):
+  def longest_key(self):
+    longest = None
+    for key in self:
+      if not longest or len(key) > len(longest):
+        longest = key
+    return longest
 
 ```
+
+**73.B ScreenCapture**
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%207B.png" width="80%" height="80%">
