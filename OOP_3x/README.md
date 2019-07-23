@@ -805,6 +805,34 @@ class MailSender:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2023.png" width="80%" height="80%">
 </a>
 
+```python
+# CodeBlock 83.A
+
+class Contact:
+  all_contacts = []
+
+  def __init__(self, name="", email="", **kwargs):
+    super().__init__(**kwargs)
+    self.name = name
+    self.email = email
+    self.all_contacts.append(self)
+
+
+class AddressHolder:
+  def __init__(self, street="", city="", state="", code="", **kwargs):
+    super().__init__(**kwargs)
+    self.street = street
+    self.city = city
+    self.state = state
+    self.zip = zip
+
+class Friend(Contact, AddressHolder):
+  def __init__(self, phone="", **kwargs):
+    super().__init__(**kwargs)
+    self.phone = phone    
+
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2024.png" width="80%" height="80%">
 </a>
