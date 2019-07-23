@@ -660,11 +660,12 @@ class Contact:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%206A.png" width="80%" height="80%">
 </a>
 
-```text
+**ScreenCapture 72.A**
 
-ScreenCapture 72.A
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/72AscreenCap.png" width="80%" height="80%">
+</p>
 
-```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%206B.png" width="80%" height="80%">
 </a>
@@ -689,9 +690,9 @@ class LongNameDict(dict):
 
 **73.B ScreenCapture**
 
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/73Bscreencap.png" width="90%" height="90%">
-</a>
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/73Bscreencap.png" width="80%" height="80%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%207B.png" width="80%" height="80%">
