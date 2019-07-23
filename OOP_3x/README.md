@@ -663,7 +663,7 @@ class Contact:
 **ScreenCapture 72.B**
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/72AscreenCap.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/72BscreenCap.png" width="80%" height="80%">
 </p>
 
 <a>
