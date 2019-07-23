@@ -660,7 +660,7 @@ class Contact:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%206A.png" width="80%" height="80%">
 </a>
 
-**ScreenCapture 72.A**
+**ScreenCapture 72.B**
 
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/72AscreenCap.png" width="80%" height="80%">
