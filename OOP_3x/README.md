@@ -627,7 +627,29 @@ ScreenCapture 61.B
 
 ```Python  
 
-# CodeBlock 72.A
+# CodeBlock 72.A 1 of 2
+
+class ContactList(list):
+  def search(self, name):
+    """Return all contacts that contain the search value within their name"""
+    matching_contacts = []
+    for contact in self:
+      if name in contact.name:
+        matching_contacts.append(contact)
+    return matching_contacts
+
+```
+
+```Python
+# CodeBlock 72.A 2 of 2
+
+class Contact:
+  all_contacts = ContactList()
+
+  def __init__(self, name, email):
+    self.name = name
+    self.email = email
+    Contact.all_contacts.append(self)
 
 ```
 <a>
@@ -694,6 +716,17 @@ class LongNameDict(dict):
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2012A.png" width="80%" height="80%">
 </a>
+
+```python
+# code for 75.A
+
+class MailSender:
+  def send_mail(self, message):
+    print("sending mail to " + self.email)
+    # add some logic
+
+```
+
 
 ```text
 # ScreenCapture 75.A
