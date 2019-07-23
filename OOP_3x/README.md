@@ -826,6 +826,7 @@ class AddressHolder:
     self.state = state
     self.zip = zip
 
+
 class Friend(Contact, AddressHolder):
   def __init__(self, phone="", **kwargs):
     super().__init__(**kwargs)
