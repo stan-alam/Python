@@ -874,7 +874,7 @@ class WavFile(AudioFile):
     print("play { } as wav".format(self.filename))
 
 class OggFile(AudioFile):
-  extension = "oog"
+  extension = "ogg"
 
   def play(self):
     print("play { } as ogg".format(self.filename))
