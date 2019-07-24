@@ -856,28 +856,28 @@ class Friend(Contact, AddressHolder):
 
 class AudioFile:
     def __init__(self, filename):
-        if not filename.endswith(self.ext):
+        if not filename.endswith(self.extension):
             raise Exception("Invalid file format")
 
         self.filename = filename
 
 
 class MP3File(AudioFile):
-    ext = "mp3"
+    extension = "mp3"
 
     def play(self):
         print("playing {} as mp3".format(self.filename))
 
 
 class WavFile(AudioFile):
-    ext = "wav"
+    extension = "wav"
 
     def play(self):
         print("playing {} as wav".format(self.filename))
 
 
 class OggFile(AudioFile):
-    ext = "ogg"
+    extension = "ogg"
 
     def play(self):
         print("playing {} as ogg".format(self.filename))
@@ -887,11 +887,13 @@ class OggFile(AudioFile):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2028.png" width="80%" height="80%">
 </a>
 
-```text
 
-ScreenCapture
+**85.A ScreenCapture**
 
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/85A_scncap1of3.png" width="50%" height="50%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2029A.png" width="80%" height="80%">
 </a>
