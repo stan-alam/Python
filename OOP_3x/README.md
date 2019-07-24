@@ -856,7 +856,7 @@ class Friend(Contact, AddressHolder):
 
 class AudioFile:
   def __init__(self, filename):
-    if not filename.endswith(self.ext):
+    if not filename.endswith(self.extension):
       raise Exception("invalid file format")
 
       self.filename = filename
