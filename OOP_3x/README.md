@@ -891,7 +891,7 @@ class OggFile(AudioFile):
 **85.A ScreenCapture**
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/85A_scncap1of3.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/85A_scncap1of3.png" width="80%" height="80%">
 </p>
 
 <a>
