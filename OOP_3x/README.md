@@ -855,29 +855,32 @@ class Friend(Contact, AddressHolder):
 # Code block 85.A
 
 class AudioFile:
-  def __init__(self, filename):
-    if not filename.endswith(self.extension):
-      raise Exception("invalid file format")
+    def __init__(self, filename):
+        if not filename.endswith(self.ext):
+            raise Exception("Invalid file format")
 
-      self.filename = filename
+        self.filename = filename
 
-class Mp3File(AudioFile):
-  extension ="mp3"
 
-  def play(self):
-    print("play { } as mp3".format(self.filename))
+class MP3File(AudioFile):
+    ext = "mp3"
+
+    def play(self):
+        print("playing {} as mp3".format(self.filename))
+
 
 class WavFile(AudioFile):
-  extension = "wav"
+    ext = "wav"
 
-  def play(self):
-    print("play { } as wav".format(self.filename))
+    def play(self):
+        print("playing {} as wav".format(self.filename))
+
 
 class OggFile(AudioFile):
-  extension = "ogg"
+    ext = "ogg"
 
-  def play(self):
-    print("play { } as ogg".format(self.filename))
+    def play(self):
+        print("playing {} as ogg".format(self.filename))
 
 ```
 <a>
