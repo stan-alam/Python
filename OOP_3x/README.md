@@ -1269,7 +1269,6 @@ ScreenCapture 110.B
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2015.png" width="80%" height="80%">
 </a>
 
-```text
-Graph 112.A
-
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/svg/Graph112A.svg" width="100%" height="100%">
+</p>
