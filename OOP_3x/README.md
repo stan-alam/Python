@@ -1270,5 +1270,5 @@ ScreenCapture 110.B
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/svg/Graph112A.svg" width="100%" height="100%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/svg/Graph112A.svg" width="50%" height="50%">
 </p>
