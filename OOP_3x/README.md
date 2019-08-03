@@ -1272,3 +1272,51 @@ ScreenCapture 110.B
 <p align="center">
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/svg/Graph112A.svg" width="50%" height="50%">
 </p>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2016.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2017.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2018A.png" width="80%" height="80%">
+</a>
+
+```Python
+# CodeBlock 113.A
+```
+
+```text
+ScreenCapture 113.B
+
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2018B.png" width="80%" height="80%">
+</a>
+
+```Python
+# CodeBlock 114.A
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2018C.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2019A.png" width="80%" height="80%">
+</a>
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/iamerror.jpg" width="50%" height="50%">
+</p>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2019B.png" width="80%" height="80%">
+</a>
+
+```Python
+# CodeBlock 114.A for 19B
+```
