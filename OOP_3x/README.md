@@ -507,7 +507,12 @@ class SecretString:
 
 ```Python   
 # code block 55B
+ print(secret_string._SecretString__plain_string)
 ```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/55BscreenCap.png" width="80%" height="80%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2029C.png" width="80%" height="80%">
 </a>
