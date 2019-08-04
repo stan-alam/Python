@@ -481,7 +481,26 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 
 ```Python   
 # code block 55A
+class SecretString:
+    """None secure - string storage"""
+
+    def __init__(self, plain_string, pass_phrase):
+        self.__plain_string = plain_string
+        self.__pass_phrase = pass_phrase
+
+    def decrypt(self, pass_phrase):
+        """show the string if the pass_phrase is correct."""
+        if pass_phrase == self.__pass_phrase:
+            return self.__plain_string
+        else:
+            return ""
+
 ```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/55AscreenCap.png" width="80%" height="80%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2029B.png" width="80%" height="80%">
 </a>
