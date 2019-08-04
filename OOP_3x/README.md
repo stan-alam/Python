@@ -541,9 +541,18 @@ class SecretString:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2035A.png" width="80%" height="80%">
 </a>
 
-```Python   
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/svg/59Graph.svg" width="50%" height="50%">
+</p>
+
+```shell   
 # code block 59A
+parent_directory
+    notebook.py
+    menu.py
+    command_option.py
 ```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2035B.png" width="80%" height="80%">
 </a>
