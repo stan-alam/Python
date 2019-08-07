@@ -343,6 +343,20 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 
 ```Python  
 # 40.A
+import math
+
+class Point:
+  def move(self, x, y):
+    self.x = x
+    self.y = y
+
+def reset(self):
+    self.move(0,0)
+
+def calculate_distance(self, other_point):
+    return math.sqrt(
+      (self.x - other_point.x) ** 2
+        + (self.y - other_point.y) ** 2
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%208B.png" width="80%" height="80%">
@@ -364,7 +378,20 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 ```Python  
-# 42.A  
+# 42.A
+class Point:
+  def __init__(self, x, y):
+    self.move(x, y)
+
+  def move(self, x, y):
+    self.x = x
+    self.y = y
+
+  def reset(self):
+    self.move(0,0)
+# construct the point
+  point = Point(3, 5)
+  print(point.x, point.y)  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2010B.png" width="80%" height="80%">
