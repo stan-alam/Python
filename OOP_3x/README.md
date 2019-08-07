@@ -409,14 +409,13 @@ class Point:
      + (self.y - other_piont.y) ** 2
     )
 ```
-
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2013B.png" width="80%" height="80%">
 </a>
 
-```Python  
-# ScreenCapture
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/44Ascreencap.png" width="80%" height="80%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2013C.png" width="80%" height="80%">
