@@ -1074,11 +1074,9 @@ class FlacFile:
 </a>
 
 ```text
-
-CodeBlock 88.A, ScreenCapture 88.B  
+ScreenCapture 88.A - 88.B  
 
 ```
-
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2033.png" width="80%" height="80%">
 </a>
@@ -1095,6 +1093,24 @@ ScreenCapture 89.A
 ```Python  
 
 # Code block 90.A
+import abc
+
+class MediaLoader(metaclass=abc.ABCMeta):
+  @abc.abstractmethod
+  def play(self):
+	pass
+
+  @abc.abstractproperty
+  def ext(self):
+	pass
+
+  @classmethod
+  def __subclasshook__(cls, C):
+	if cls is MediaLoader:
+	  attrs = set(dir(C))
+	  if set(cls.__abstractmethods__) <== attrs:
+		return True
+	return NotImplemented
 
 ```   
 
