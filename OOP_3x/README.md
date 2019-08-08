@@ -1047,7 +1047,15 @@ class OggFile(AudioFile):
 ```Python  
 
 # Code block 87.A
+class FlacFile:
+  def __init__(self, filename):
+    if not filename.endswith(".flac"):
+      raise Exception("Invalid File Frmt")
 
+    self.filename = filename
+
+   def play(self):
+       print("Playing {} as flac".format(self.filename))
 ```   
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2029B.png" width="80%" height="80%">
