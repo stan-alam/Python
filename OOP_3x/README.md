@@ -1187,8 +1187,24 @@ ScreenCapture 89.A
 
 ```Python
 # CodeBlock 97.A
+def get_lesson(self, student):
+  assignment = self.student_graders[student]
+  return assignment.lesson()
+
+def check_assignment(self, student, code):
+  assignment = self.student_graders[student]
+  return assignment.check(code)    
 
 # CodeBlock 97.B
+def assignment_summary(self, student):
+  grader = self.student_graders[student]
+  return f"""
+  {student}'s attempts at {grader.assignment.__class__.__name__}:
+
+  attempts: {grader.attempts}
+  correct: {grader.correct_attempts}
+  passed: {grader.correct_attempts > 0}
+  """
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2047A.png" width="80%" height="80%">
