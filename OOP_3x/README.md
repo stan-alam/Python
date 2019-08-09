@@ -1122,9 +1122,8 @@ class MediaLoader(metaclass=abc.ABCMeta):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2036A.png" width="80%" height="80%">
 </a>
 
-```Python  
-
-# Code block 91.A
+```text  
+ScreenShot 91.A
 
 ```   
 <a>
@@ -1159,7 +1158,16 @@ class MediaLoader(metaclass=abc.ABCMeta):
 </a>
 
 ```Python
-# CodeBlock 93.A  
+# CodeBlock 93.A
+class IntroToPython:
+  def lesson(self):
+	return f """
+	  Hi {self.student}. define two vars, an int named with a value of 1 & a string named b with a value of 'hi'
+
+"""
+
+  def check(self, code):
+	return code == "a = 1\nb = 'hi!'"  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2042B.png" width="80%" height="80%">
