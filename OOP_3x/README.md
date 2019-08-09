@@ -1202,14 +1202,49 @@ class Assignment(metaclass=abc.ABCMeta):
 </a>
 
 ```Python
-# CodeBlock 94.A_2  
+# CodeBlock 94.A_2
+class Stats(Assignment):
+    def less(self):
+        return (
+            "Good work, "
+            + self.student
+            + ". Now calculate the avg of the numbers "
+            + " 3, 8, 10, -5 and assign to a var named 'avg'"
+        )
+        
+    def check(self, code):
+        import stats
+        
+        code = "import stats\n" + code
+        
+        local_vars = { }
+        global_vars = { }
+        exec(code, global_vars, local_vars)
+        
+        return local_vars.get("avg") == stats.mean([3, 8, 10, -5])  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2043B.png" width="80%" height="80%">
 </a>
 
 ```Python
-# CodeBlock 95.A  
+# CodeBlock 95.A
+class AssignmentGrader:
+    def __init(self, student, AssignmentClass):
+        self.assignment = AssignmentClass()
+        self.assignment.student = student
+        self.attempts = 0
+        self.correct_attempts = 0
+        
+    def check(self, code):
+        self.attempts += 1
+        result = self.assignment.check(code)
+        if result:
+            self.correct_attempts += 1
+            
+            return result
+    def lesson(self):
+        return self.assignment.lession()  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2043C.png" width="80%" height="80%">
