@@ -1244,7 +1244,7 @@ class AssignmentGrader:
             
             return result
     def lesson(self):
-        return self.assignment.lession()  
+        return self.assignment.lesson()  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2043C.png" width="80%" height="80%">
