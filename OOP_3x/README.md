@@ -1160,21 +1160,38 @@ ScreenShot 91.A
 ```Python
 # CodeBlock 93.A
 class IntroToPython:
-  def lesson(self):
-	return f """
-	  Hi {self.student}. define two vars, an int named with a value of 1 & a string named b with a value of 'hi'
+    def lesson(self):
+	    return f """
+	        Hi {self.student}. define two vars, an int named with a value of 1 & a string named b with a value of 'hi'
 
 """
 
-  def check(self, code):
-	return code == "a = 1\nb = 'hi!'"  
+    def check(self, code):
+        return code == "a = 1\nb = 'hi!'"	return code == "a = 1\nb = 'hi!'"  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2042B.png" width="80%" height="80%">
 </a>
 
 ```Python
-# CodeBlock 94.A  
+# CodeBlock 94.A
+class Assignment(metaclass=abc.ABCMeta):
+    @abc.abstractmethod
+    def lesson(self, student):
+        pass
+    
+    @abc.abstractmethod
+    def check(self, student):
+        pass
+        
+    @classmethod
+    def __subclasshook__(cls, C):
+        if cls is Assignment:
+            attrs = set(dir(C))
+            if set(cls.__abstractmethods__) <= attrs:
+                return True
+                
+        return NotImplemented  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2042C.png" width="80%" height="80%">
