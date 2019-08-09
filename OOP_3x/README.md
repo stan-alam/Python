@@ -512,7 +512,29 @@ class Point:
 
 ```Python   
 # code block 53A
+def format_string(string, formatter=None):
+    """Format a string using the formatter obj - is expecting to have a format() method that accepts a string value"""
+    
+    class DefaultFormatter:
+        """Format a string in the title case."""
+        
+        def format(self, string):
+            return str(string).title()
+            
+    if not formatter:
+        formatter = DefaultFormatter()
+        
+    return formatter.format(string)
+    
+hello_string = "hellow multiverse(s)! where are you?"
+print(" input: " + hello_string)
+print(" output:  " + format_string(hello_string))
 ```
+
+```text
+ScreenCap 53A
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2026B.png" width="80%" height="80%">
 </a>
@@ -1255,7 +1277,23 @@ class AssignmentGrader:
 </a>
 
 ```Python
-# CodeBlock 96.A  
+# CodeBlock 96.A
+import uuid
+# needs refactoring
+class Grader:
+    def __init__(self):
+        self.student_graders = {}
+        self.assignments_classes = {}
+        
+    def register(self, assignment_classes):
+        if not issubclass(assignment_class, Assignment):
+            raise RuntimeError(
+                "Your class does not the appropriate method(s)"
+            )
+            
+        id = uuid.uuid4()
+        self.assignment_classes[id] = assignment_class
+        return id  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2044B.png" width="80%" height="80%">
