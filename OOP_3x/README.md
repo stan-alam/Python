@@ -936,7 +936,7 @@ class MailSender:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2018.png" width="80%" height="80%">
 </a>
 
-```text
+```Python
 # 79.A
 class BaseClass:
     num_base_calls = 0
@@ -970,7 +970,6 @@ class Subclass(LeftSubclass, RightSubclass):
         RightSubclass.call_me(self)
         print("Calling method on Subclass")
         self.num_sub_calls += 1
-
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2019A.png" width="80%" height="80%">
