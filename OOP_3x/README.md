@@ -894,9 +894,10 @@ class MailSender:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2019A.png" width="80%" height="80%">
 </a>
 
-```text
-# ScreenCapture 80.A
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/03/src/80AScreenCap.png" width="80%" height="80%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2019B.png" width="80%" height="80%">
 </a>
