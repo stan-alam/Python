@@ -944,7 +944,7 @@ class MailSender:
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/03/src/80AScreenCap.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/03/src/80AScreenCap.png" width="50%" height="50%">
 </p>
 
 <a>
