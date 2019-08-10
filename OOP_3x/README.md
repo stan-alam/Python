@@ -343,6 +343,20 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 
 ```Python  
 # 40.A
+import math
+
+class Point:
+  def move(self, x, y):
+    self.x = x
+    self.y = y
+
+def reset(self):
+    self.move(0,0)
+
+def calculate_distance(self, other_point):
+    return math.sqrt(
+      (self.x - other_point.x) ** 2
+        + (self.y - other_point.y) ** 2
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%208B.png" width="80%" height="80%">
@@ -364,7 +378,20 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 ```Python  
-# 42.A  
+# 42.A
+class Point:
+  def __init__(self, x, y):
+    self.move(x, y)
+
+  def move(self, x, y):
+    self.x = x
+    self.y = y
+
+  def reset(self):
+    self.move(0,0)
+# construct the point
+  point = Point(3, 5)
+  print(point.x, point.y)  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2010B.png" width="80%" height="80%">
@@ -485,7 +512,29 @@ class Point:
 
 ```Python   
 # code block 53A
+def format_string(string, formatter=None):
+    """Format a string using the formatter obj - is expecting to have a format() method that accepts a string value"""
+    
+    class DefaultFormatter:
+        """Format a string in the title case."""
+        
+        def format(self, string):
+            return str(string).title()
+            
+    if not formatter:
+        formatter = DefaultFormatter()
+        
+    return formatter.format(string)
+    
+hello_string = "hellow multiverse(s)! where are you?"
+print(" input: " + hello_string)
+print(" output:  " + format_string(hello_string))
 ```
+
+```text
+ScreenCap 53A
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2026B.png" width="80%" height="80%">
 </a>
@@ -1021,7 +1070,15 @@ class OggFile(AudioFile):
 ```Python  
 
 # Code block 87.A
+class FlacFile:
+  def __init__(self, filename):
+    if not filename.endswith(".flac"):
+      raise Exception("Invalid File Frmt")
 
+    self.filename = filename
+
+   def play(self):
+       print("Playing {} as flac".format(self.filename))
 ```   
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2029B.png" width="80%" height="80%">
@@ -1040,11 +1097,9 @@ class OggFile(AudioFile):
 </a>
 
 ```text
-
-CodeBlock 88.A, ScreenCapture 88.B  
+ScreenCapture 88.A - 88.B  
 
 ```
-
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2033.png" width="80%" height="80%">
 </a>
@@ -1061,6 +1116,24 @@ ScreenCapture 89.A
 ```Python  
 
 # Code block 90.A
+import abc
+
+class MediaLoader(metaclass=abc.ABCMeta):
+  @abc.abstractmethod
+  def play(self):
+	pass
+
+  @abc.abstractproperty
+  def ext(self):
+	pass
+
+  @classmethod
+  def __subclasshook__(cls, C):
+	if cls is MediaLoader:
+	  attrs = set(dir(C))
+	  if set(cls.__abstractmethods__) <== attrs:
+		return True
+	return NotImplemented
 
 ```   
 
@@ -1072,9 +1145,8 @@ ScreenCapture 89.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2036A.png" width="80%" height="80%">
 </a>
 
-```Python  
-
-# Code block 91.A
+```text  
+ScreenShot 91.A
 
 ```   
 <a>
@@ -1109,14 +1181,40 @@ ScreenCapture 89.A
 </a>
 
 ```Python
-# CodeBlock 93.A  
+# CodeBlock 93.A
+class IntroToPython:
+    def lesson(self):
+	    return f """
+	        Hi {self.student}. define two vars, an int named with a value of 1 & a string named b with a value of 'hi'
+
+"""
+
+    def check(self, code):
+        return code == "a = 1\nb = 'hi!'"	return code == "a = 1\nb = 'hi!'"  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2042B.png" width="80%" height="80%">
 </a>
 
 ```Python
-# CodeBlock 94.A  
+# CodeBlock 94.A
+class Assignment(metaclass=abc.ABCMeta):
+    @abc.abstractmethod
+    def lesson(self, student):
+        pass
+    
+    @abc.abstractmethod
+    def check(self, student):
+        pass
+        
+    @classmethod
+    def __subclasshook__(cls, C):
+        if cls is Assignment:
+            attrs = set(dir(C))
+            if set(cls.__abstractmethods__) <= attrs:
+                return True
+                
+        return NotImplemented  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2042C.png" width="80%" height="80%">
@@ -1127,14 +1225,49 @@ ScreenCapture 89.A
 </a>
 
 ```Python
-# CodeBlock 94.A_2  
+# CodeBlock 94.A_2
+class Stats(Assignment):
+    def less(self):
+        return (
+            "Good work, "
+            + self.student
+            + ". Now calculate the avg of the numbers "
+            + " 3, 8, 10, -5 and assign to a var named 'avg'"
+        )
+        
+    def check(self, code):
+        import stats
+        
+        code = "import stats\n" + code
+        
+        local_vars = { }
+        global_vars = { }
+        exec(code, global_vars, local_vars)
+        
+        return local_vars.get("avg") == stats.mean([3, 8, 10, -5])  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2043B.png" width="80%" height="80%">
 </a>
 
 ```Python
-# CodeBlock 95.A  
+# CodeBlock 95.A
+class AssignmentGrader:
+    def __init(self, student, AssignmentClass):
+        self.assignment = AssignmentClass()
+        self.assignment.student = student
+        self.attempts = 0
+        self.correct_attempts = 0
+        
+    def check(self, code):
+        self.attempts += 1
+        result = self.assignment.check(code)
+        if result:
+            self.correct_attempts += 1
+            
+            return result
+    def lesson(self):
+        return self.assignment.lesson()  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2043C.png" width="80%" height="80%">
@@ -1145,7 +1278,23 @@ ScreenCapture 89.A
 </a>
 
 ```Python
-# CodeBlock 96.A  
+# CodeBlock 96.A
+import uuid
+# needs refactoring
+class Grader:
+    def __init__(self):
+        self.student_graders = {}
+        self.assignments_classes = {}
+        
+    def register(self, assignment_classes):
+        if not issubclass(assignment_class, Assignment):
+            raise RuntimeError(
+                "Your class does not the appropriate method(s)"
+            )
+            
+        id = uuid.uuid4()
+        self.assignment_classes[id] = assignment_class
+        return id  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2044B.png" width="80%" height="80%">
@@ -1161,8 +1310,24 @@ ScreenCapture 89.A
 
 ```Python
 # CodeBlock 97.A
+def get_lesson(self, student):
+  assignment = self.student_graders[student]
+  return assignment.lesson()
+
+def check_assignment(self, student, code):
+  assignment = self.student_graders[student]
+  return assignment.check(code)    
 
 # CodeBlock 97.B
+def assignment_summary(self, student):
+  grader = self.student_graders[student]
+  return f"""
+  {student}'s attempts at {grader.assignment.__class__.__name__}:
+
+  attempts: {grader.attempts}
+  correct: {grader.correct_attempts}
+  passed: {grader.correct_attempts > 0}
+  """
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2047A.png" width="80%" height="80%">
@@ -1356,6 +1521,17 @@ ScreenCapture 113.B
 
 ```Python
 # CodeBlock 114.A
+def divide_with_exception(number, divisor):
+    try:
+	print(f"{number} / {divisor} = {number / divisor}")
+    except ZeroDivisionError:
+	print("You can't divide by 0")
+
+def divide_with_if(number, divisor):
+    if divisor == 0:
+	print("You can't divide by 0, duh!")
+    else:
+        print(f"{number} / { divisor} = { number / divisor}") 
 ```
 
 <a>
@@ -1376,4 +1552,32 @@ ScreenCapture 113.B
 
 ```Python
 # CodeBlock 114.A for 19B
+def divide_with_exception(number, divisor):
+    try:
+	print(f"{number} / {divisor} = {number / divisor}")
+    except ZeroDivisionError:
+	print("You can't divide by 0")
+
+def divide_with_if(number, divisor):
+    if divisor == 0:
+	print("You can't divide by 0, duh!")
+    else:
+        print(f"{number} / { divisor} = { number / divisor}") 
 ```
+
+```Python
+# CodeBlock 116.A #1
+class Inventory:
+  def lock(self, item_type):
+    """select a type of item. This method will lock the currently selected item as to prevent race conditions...preventing the selling of the same item to more than one person at a time"""
+    pass
+
+  def unlock(self, item_type):
+    """Release the given type so other's have    access to it"""
+    pass
+
+  def purchase(self, item_type):
+    """if the item is NOT locked, raise an exception. If the item_type does not exist, raise an exception. If the item is currently out of stock, raise an exception. If the item is available, subtract one item and return the number of items left."""
+    pass
+```
+
