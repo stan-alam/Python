@@ -514,18 +514,18 @@ class Point:
 # code block 53A
 def format_string(string, formatter=None):
     """Format a string using the formatter obj - is expecting to have a format() method that accepts a string value"""
-    
+
     class DefaultFormatter:
         """Format a string in the title case."""
-        
+
         def format(self, string):
             return str(string).title()
-            
+
     if not formatter:
         formatter = DefaultFormatter()
-        
+
     return formatter.format(string)
-    
+
 hello_string = "hellow multiverse(s)! where are you?"
 print(" input: " + hello_string)
 print(" output:  " + format_string(hello_string))
@@ -936,16 +936,49 @@ class MailSender:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2018.png" width="80%" height="80%">
 </a>
 
-```text
+```Python
 # 79.A
+class BaseClass:
+    num_base_calls = 0
+    
+    def call_me(self):
+        print("Calling method on BaseClass")
+        self.num_base_calls += 1
+        
+class LeftSubclass(BaseClass):
+    num_left_calls = 0
+    
+    def call_me(self):
+        BaseClass.call_me(self)
+        print("Call method on left Subclass")
+        self.num_left_calls += 1
+        
+class RightSubclass(BaseClass):
+    num_right_calls = 0
+    
+    def call_me(self):
+        BaseClass.call_me(self)
+        print("Calling method on Right Subclass")
+        self.num_right_calls += 1
+        
+        
+class Subclass(LeftSubclass, RightSubclass):
+    num_sub_calls = 0
+    
+    def call_me(self):
+        LeftSubclass.call_me(self)
+        RightSubclass.call_me(self)
+        print("Calling method on Subclass")
+        self.num_sub_calls += 1
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2019A.png" width="80%" height="80%">
 </a>
 
-```text
-# ScreenCapture 80.A
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/03/src/80AScreenCap.png" width="50%" height="50%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2019B.png" width="80%" height="80%">
 </a>
@@ -1201,18 +1234,18 @@ class Assignment(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def lesson(self, student):
         pass
-    
+
     @abc.abstractmethod
     def check(self, student):
         pass
-        
+
     @classmethod
     def __subclasshook__(cls, C):
         if cls is Assignment:
             attrs = set(dir(C))
             if set(cls.__abstractmethods__) <= attrs:
                 return True
-                
+
         return NotImplemented  
 ```
 <a>
@@ -1233,16 +1266,16 @@ class Stats(Assignment):
             + ". Now calculate the avg of the numbers "
             + " 3, 8, 10, -5 and assign to a var named 'avg'"
         )
-        
+
     def check(self, code):
         import stats
-        
+
         code = "import stats\n" + code
-        
+
         local_vars = { }
         global_vars = { }
         exec(code, global_vars, local_vars)
-        
+
         return local_vars.get("avg") == stats.mean([3, 8, 10, -5])  
 ```
 <a>
@@ -1257,13 +1290,13 @@ class AssignmentGrader:
         self.assignment.student = student
         self.attempts = 0
         self.correct_attempts = 0
-        
+
     def check(self, code):
         self.attempts += 1
         result = self.assignment.check(code)
         if result:
             self.correct_attempts += 1
-            
+
             return result
     def lesson(self):
         return self.assignment.lesson()  
@@ -1284,13 +1317,13 @@ class Grader:
     def __init__(self):
         self.student_graders = {}
         self.assignments_classes = {}
-        
+
     def register(self, assignment_classes):
         if not issubclass(assignment_class, Assignment):
             raise RuntimeError(
                 "Your class does not the appropriate method(s)"
             )
-            
+
         id = uuid.uuid4()
         self.assignment_classes[id] = assignment_class
         return id  
@@ -1530,7 +1563,7 @@ def divide_with_if(number, divisor):
     if divisor == 0:
 	print("You can't divide by 0, duh!")
     else:
-        print(f"{number} / { divisor} = { number / divisor}") 
+        print(f"{number} / { divisor} = { number / divisor}")
 ```
 
 <a>
@@ -1561,7 +1594,7 @@ def divide_with_if(number, divisor):
     if divisor == 0:
 	print("You can't divide by 0, duh!")
     else:
-        print(f"{number} / { divisor} = { number / divisor}") 
+        print(f"{number} / { divisor} = { number / divisor}")
 ```
 
 ```Python
@@ -1579,6 +1612,7 @@ class Inventory:
     """if the item is NOT locked, raise an exception. If the item_type does not exist, raise an exception. If the item is currently out of stock, raise an exception. If the item is available, subtract one item and return the number of items left."""
     pass
 ```
+<<<<<<< HEAD
 
 ```Python
 #118.A
@@ -1604,3 +1638,5 @@ class User:
         return encrypted == self.password
 
 ```
+=======
+>>>>>>> 11b875259c7015dcbf915523576dbf114f749c09
