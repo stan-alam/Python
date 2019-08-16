@@ -1612,7 +1612,6 @@ class Inventory:
     """if the item is NOT locked, raise an exception. If the item_type does not exist, raise an exception. If the item is currently out of stock, raise an exception. If the item is available, subtract one item and return the number of items left."""
     pass
 ```
-<<<<<<< HEAD
 
 ```Python
 #118.A
@@ -1638,5 +1637,3 @@ class User:
         return encrypted == self.password
 
 ```
-=======
->>>>>>> 11b875259c7015dcbf915523576dbf114f749c09
