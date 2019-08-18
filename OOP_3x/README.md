@@ -940,31 +940,31 @@ class MailSender:
 # 79.A
 class BaseClass:
     num_base_calls = 0
-    
+
     def call_me(self):
         print("Calling method on BaseClass")
         self.num_base_calls += 1
-        
+
 class LeftSubclass(BaseClass):
     num_left_calls = 0
-    
+
     def call_me(self):
         BaseClass.call_me(self)
         print("Call method on left Subclass")
         self.num_left_calls += 1
-        
+
 class RightSubclass(BaseClass):
     num_right_calls = 0
-    
+
     def call_me(self):
         BaseClass.call_me(self)
         print("Calling method on Right Subclass")
         self.num_right_calls += 1
-        
-        
+
+
 class Subclass(LeftSubclass, RightSubclass):
     num_sub_calls = 0
-    
+
     def call_me(self):
         LeftSubclass.call_me(self)
         RightSubclass.call_me(self)
@@ -1597,6 +1597,14 @@ def divide_with_if(number, divisor):
         print(f"{number} / { divisor} = { number / divisor}")
 ```
 
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2020.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2021A.png" width="80%" height="80%">
+</a>
+
 ```Python
 # CodeBlock 116.A #1
 class Inventory:
@@ -1613,6 +1621,34 @@ class Inventory:
     pass
 ```
 
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2021B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2022A.png" width="80%" height="80%">
+</a>
+
+```Python
+# CodeBlock 116.A #2
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2022B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2023.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2024.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2025.png" width="80%" height="80%">
+</a>
+
 ```Python
 #118.A
 import hashlib
@@ -1624,16 +1660,77 @@ class User:
         self.username = username
         self.password = self._encrypt_pw(password)
         self.is_logged_in = False
-    
+
     def _encrypt_pw(self, password):
         """Encypt the password with the username and return the sha digest."""
         hash_string = self.username + password
         hash_string = hash_string.encode("utf8")
         return hashlib.sha256       (hash_string).hexdigest()
-    
+
     def check_password(self, password):
         """rerturn true if password is valid for this user, false otherwise"""
         encrypted = self.__encrypt_pw(password)
         return encrypted == self.password
 
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2026A.png" width="80%" height="80%">
+</a>
+
+```Python  
+#119.A  
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2026B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2027A.png" width="80%" height="80%">
+</a>
+
+```Python
+# code block 120.A  
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2027B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2028A.png" width="80%" height="80%">
+</a>
+
+```Python
+# code block 121.A  
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2028B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2029.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2030.png" width="80%" height="80%">
+</a>
+
+```Python
+# code block 122.A
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2031.png" width="80%" height="80%">
+</a>
+
+```Python
+# code block 123.A
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2032.png" width="80%" height="80%">
+</a>
+
+```text
+# screencap 123B-124A
 ```
