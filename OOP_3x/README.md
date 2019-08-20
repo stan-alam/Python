@@ -1717,6 +1717,11 @@ class User:
 
 ```Python
 # code block 122.A
+
+class Authorizer:
+    def __init__(self, authenticator):
+        self.authenticator = authenticator
+        self.permissions = {}
 ```
 
 <a>
