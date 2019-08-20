@@ -44,7 +44,7 @@ class Editor:
             
     def test(self):
         if self.is_permitted("testing program..."):
-		print("changing program")
+		    print("changing program")
         
     def quit(self):
         raise SystemExit()
@@ -64,7 +64,7 @@ class Editor:
                 answer = input("enter a command: ").lower()
                 try:
                     func = self.menu_map[answer]
-                        except KeyErr:
+                except KeyError:
                     print("{} is not a valid key".format(answer))
                 else:
                     func()
