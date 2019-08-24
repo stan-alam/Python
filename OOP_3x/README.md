@@ -322,7 +322,15 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 ```Python
-# 38A  
+# 38A
+class Point:
+    def reset(self):
+        self.x = 0
+        self.y = 0
+        
+p = Point()
+p.reset()
+print(p.x, p.y  
 ```
 
 <a>
@@ -490,6 +498,15 @@ class Point:
 
 ```Python   
 # code block 52A
+class Database:
+    # the db implementation
+    pass
+    
+database = None
+
+def initialize_database():
+    global database
+    database = Database()
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2024.png" width="80%" height="80%">
@@ -501,6 +518,19 @@ class Point:
 
 ```Python   
 # code block 52A
+class UselessClass:
+    """This class might be useful to some modules while useless to others"""
+    
+    pass
+  
+def main():
+    """creates a useless class and does something useless unless there's something useful to do with the module?"""
+    
+    useless = UselessClass()
+    print(useless)
+   
+if __name__ == "__main__":
+   main()
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2025B.png" width="80%" height="80%">
@@ -726,7 +756,21 @@ ScreenCapture 61.B
 </a>
 
 ```Python
-# code block 62.A  
+# code block 62.A
+def __find_note(self, note_id):
+    """Locate the note with the id"""
+    for note in self.notes:
+        if note.id == note_id:
+            return note
+    return None
+    
+def modify_memo(self, note_id, memo):
+    """find the note with the given id and change its memo to the entered id"""
+    self._find_note(note_id).memo = memo
+    
+def modify_tags(self, note_id, tags):
+    """Find the note with the given id and change its tags to the given value"""
+    self._find_note(note_id).tags = tags  
 ```
 
 <a>
