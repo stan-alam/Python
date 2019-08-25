@@ -330,7 +330,7 @@ class Point:
         
 p = Point()
 p.reset()
-print(p.x, p.y  
+print(p.x, p.y)
 ```
 
 <a>
@@ -501,7 +501,7 @@ class Point:
 class Database:
     # the db implementation
     pass
-    
+
 database = None
 
 def initialize_database():
@@ -520,15 +520,15 @@ def initialize_database():
 # code block 52A
 class UselessClass:
     """This class might be useful to some modules while useless to others"""
-    
+
     pass
-  
+
 def main():
     """creates a useless class and does something useless unless there's something useful to do with the module?"""
-    
+
     useless = UselessClass()
     print(useless)
-   
+
 if __name__ == "__main__":
    main()
 ```
@@ -763,11 +763,11 @@ def __find_note(self, note_id):
         if note.id == note_id:
             return note
     return None
-    
+
 def modify_memo(self, note_id, memo):
     """find the note with the given id and change its memo to the entered id"""
     self._find_note(note_id).memo = memo
-    
+
 def modify_tags(self, note_id, tags):
     """Find the note with the given id and change its tags to the given value"""
     self._find_note(note_id).tags = tags  
