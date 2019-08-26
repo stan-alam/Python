@@ -327,7 +327,7 @@ class Point:
     def reset(self):
         self.x = 0
         self.y = 0
-        
+
 p = Point()
 p.reset()
 print(p.x, p.y)
@@ -1783,3 +1783,9 @@ class Authorizer:
 ```text
 # screencap 123B-124A
 ```
+
+# 05
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5.png" width="80%" height="80%">
+</a>
