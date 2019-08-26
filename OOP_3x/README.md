@@ -1832,7 +1832,7 @@ class Authorizer:
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%201.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%204.png" width="80%" height="80%">
 </a>
 
 ```Python
