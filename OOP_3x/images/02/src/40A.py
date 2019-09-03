@@ -12,3 +12,4 @@ def calculate_distance(self, other_point):
     return math.sqrt(
       (self.x - other_point.x) ** 2
         + (self.y - other_point.y) ** 2
+    )
