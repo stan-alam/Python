@@ -900,7 +900,7 @@ class MailSender:
 **ScreenCapture 75.A**
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/75Ascreencap.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/75Ascreencap.png" width="70%" height="70%">
 </p>
 
 <a>
