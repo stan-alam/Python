@@ -531,10 +531,10 @@ print(" input: " + hello_string)
 print(" output:  " + format_string(hello_string))
 ```
 
-
 **ScreenCap 53A**
+
 <p align="center">
-https://github.com/stan-alam/Python/blob/master/OOP_3x/images/02/src/53AScreenCap.png
+  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/02/src/53AScreenCap.png" width="50%" height="50%">
 </p>
 
 <a>
@@ -897,11 +897,11 @@ class MailSender:
     # add some logic
 
 ```
-
 **ScreenCapture 75.A**
+
 <p align="center">
-  "https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/75Ascreencap.png" width="50%" height="50%">
-<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/75Ascreencap.png" width="50%" height="50%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2012B.png" width="80%" height="80%">
