@@ -322,7 +322,15 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 ```Python
-# 38A  
+# 38A
+class Point:
+    def reset(self):
+        self.x = 0
+        self.y = 0
+
+p = Point()
+p.reset()
+print(p.x, p.y)
 ```
 
 <a>
@@ -490,6 +498,15 @@ class Point:
 
 ```Python   
 # code block 52A
+class Database:
+    # the db implementation
+    pass
+
+database = None
+
+def initialize_database():
+    global database
+    database = Database()
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2024.png" width="80%" height="80%">
@@ -501,6 +518,19 @@ class Point:
 
 ```Python   
 # code block 52A
+class UselessClass:
+    """This class might be useful to some modules while useless to others"""
+
+    pass
+
+def main():
+    """creates a useless class and does something useless unless there's something useful to do with the module?"""
+
+    useless = UselessClass()
+    print(useless)
+
+if __name__ == "__main__":
+   main()
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2025B.png" width="80%" height="80%">
@@ -531,11 +561,9 @@ print(" input: " + hello_string)
 print(" output:  " + format_string(hello_string))
 ```
 
-**ScreenCap 53A**
-
-<p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/02/src/53AScreenCap.png" width="50%" height="50%">
-</p>
+```text
+ScreenCap 53A
+```
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%2026B.png" width="80%" height="80%">
@@ -728,7 +756,21 @@ ScreenCapture 61.B
 </a>
 
 ```Python
-# code block 62.A  
+# code block 62.A
+def __find_note(self, note_id):
+    """Locate the note with the id"""
+    for note in self.notes:
+        if note.id == note_id:
+            return note
+    return None
+
+def modify_memo(self, note_id, memo):
+    """find the note with the given id and change its memo to the entered id"""
+    self._find_note(note_id).memo = memo
+
+def modify_tags(self, note_id, tags):
+    """Find the note with the given id and change its tags to the given value"""
+    self._find_note(note_id).tags = tags  
 ```
 
 <a>
@@ -897,11 +939,11 @@ class MailSender:
     # add some logic
 
 ```
-**ScreenCapture 75.A**
 
-<p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/src/75Ascreencap.png" width="60%" height="60%">
-</p>
+
+```text
+# ScreenCapture 75.A
+```
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2012B.png" width="80%" height="80%">
@@ -1719,6 +1761,11 @@ class User:
 
 ```Python
 # code block 122.A
+
+class Authorizer:
+    def __init__(self, authenticator):
+        self.authenticator = authenticator
+        self.permissions = {}
 ```
 
 <a>
@@ -1727,6 +1774,19 @@ class User:
 
 ```Python
 # code block 123.A
+def check_permission(self, perm_name, username):
+    if not self.authenticator.is_logged_in(username):
+        raise NotLoggedInError(username)
+
+    try:
+        perm_set = self.permissions[perm_name]
+    except KeyError:
+        raise PermissionError("Permission not found")
+    else:
+        if username not in perm_set:
+            raise NotPermittedError(username)
+        else:
+            return True
 ```
 
 <a>
@@ -1736,3 +1796,133 @@ class User:
 ```text
 # screencap 123B-124A
 ```
+
+# 05
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%201.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%202A.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 130.A
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%202B.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 131.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%202C.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%203A.png" width="80%" height="80%">
+</a>
+
+```text  
+#scrncap 131.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%203B.png" width="80%" height="80%">
+</a>
+
+```text  
+#scrncap 131.B
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%203B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%204.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 132.A
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%205.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%206.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%207.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%208A.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 134.A
+class Color:
+    def __init__(self, rgb_val, name):
+        self.rgb_val = rbg_val
+        self.name = name
+
+    def set_name(self, name):
+        self._name = name
+    def get_name(self):
+        return self._name
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%208B.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 134.B
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%208C.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 134.C
+class Color:
+    def __init__(self, rgb_val, name):
+        self.rgb_val = rgb_val
+        self.name = name
+
+c = Color("#ff0000", "bright red")
+print(c.name)
+c.name = "red"
+print(c.name)
+
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%208D.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%209.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2010A.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 135.B
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2010B.png" width="80%" height="80%">
+</a>
