@@ -1722,7 +1722,18 @@ class User:
 </a>
 
 ```Python  
-#119.A  
+#119.A
+class AuthException(Exception):
+    def __init__(self, username, user=None):
+        super().__init__(username, user)
+        self.username = username
+        self.user = user
+
+class UsernameAlreadyExists(AuthException):
+    pass
+
+class PasswordTooShort(AuthException):
+    pass  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2026B.png" width="80%" height="80%">
@@ -1733,7 +1744,18 @@ class User:
 </a>
 
 ```Python
-# code block 120.A  
+# code block 120.A
+class Authenticator:
+    def __init__(self):
+    	"""construct an authenticator to manage user logins"""
+    	self.users = {}
+
+    def add_user(self, username, password):
+        if username in self.users:
+            raise UsernameAlreadyExists(username)
+        if len(password) < 8:
+            raise PasswordTooShort(username)
+        self.users[username] = User(username, password)  
 ```
 
 <a>
@@ -1745,7 +1767,18 @@ class User:
 </a>
 
 ```Python
-# code block 121.A  
+# code block 121.A
+def login(self, username, password):
+    try:
+        user = self.users[username]
+    except KeyError:
+        raise InvalidUsername(username)
+
+    if not user.check_password(password):
+        raise InvalidPassword(username, user)
+
+    user.is_logged_in = True
+    return True  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2028B.png" width="80%" height="80%">
@@ -1813,6 +1846,17 @@ def check_permission(self, perm_name, username):
 
 ```Python
 # codeblock 130.A
+import math
+
+def distance(p1, p2):
+    return math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2)
+
+def perimeter(polygon):
+    perimeter = 0
+    points = polygon + [polygon[0]]
+    for i in range(len(polygon)):
+        perimeter += distance(points[i], points[i+1])
+    return perimeter
 ```
 
 <a>
@@ -1821,6 +1865,27 @@ def check_permission(self, perm_name, username):
 
 ```Python
 # codeblock 131.A
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def distance(self, p2):
+        return math.sqrt((self.x-p2.x)**2 + (self.y-p2.y)**2)
+
+class Polygon:
+    def __init__(self):
+        self.vertices = []
+
+    def add_point(self, point):
+        self.vertices.append((point))
+
+    def perimeter(self):
+        perimeter = 0
+        points = self.vertices + [self.vertices[0]]
+        for i in range(len(self.vertices)):
+            perimeter += points[i].distance(points[i+1])
+        return perimeter
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%202C.png" width="80%" height="80%">
@@ -1850,6 +1915,13 @@ def check_permission(self, perm_name, username):
 
 ```Python
 # codeblock 132.A
+def __init__(self, points=None):
+    points = points if points else []
+    self.vertices = []
+    for point in points:
+        if isinstance(point, tuple):
+            point = Point(*point)
+        self.vertices.append(point)
 ```
 
 <a>
