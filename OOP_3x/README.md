@@ -1366,7 +1366,7 @@ class Grader:
     def register(self, assignment_classes):
         if not issubclass(assignment_class, Assignment):
             raise RuntimeError(
-                "Your class does not the appropriate method(s)"
+                "Your class does not have the appropriate method(s)"
             )
 
         id = uuid.uuid4()
