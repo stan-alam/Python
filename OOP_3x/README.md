@@ -365,6 +365,7 @@ def calculate_distance(self, other_point):
     return math.sqrt(
       (self.x - other_point.x) ** 2
         + (self.y - other_point.y) ** 2
+    )
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/02/pyth3oop2%20-%208B.png" width="80%" height="80%">
@@ -1997,4 +1998,86 @@ print(c.name)
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2010B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2011A.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 136.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2011B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2012.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2013A.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 137.A
+```
+
+```text
+screencap 137.B
+```
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2013B.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 137.C
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2014.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2015.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 138.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2016.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 139.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2017.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2018.png" width="80%" height="80%">
+</a>
+
+```text
+Lisa Simpson Meme
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2019.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2020A.png" width="80%" height="80%">
+</a>
+
+```Python
+# codeblock 140.A
+```
+
+```text
+screencap 141.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2020B.png" width="80%" height="80%">
 </a>
