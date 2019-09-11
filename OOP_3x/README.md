@@ -2060,9 +2060,10 @@ screencap 137.B
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2018.png" width="80%" height="80%">
 </a>
 
-```text
-Lisa Simpson Meme
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/lisaPresentation.jpg" width="50%" height="50%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2019.png" width="80%" height="80%">
 </a>
