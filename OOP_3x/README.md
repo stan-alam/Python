@@ -2045,9 +2045,9 @@ class TomFoolery:
     tomfoolery = property(_get_tomfoolery, _set_tomfoolery, _del_tomfoolery, "this is a tomfoolery property")
 ```
 
-```text
-screencap 137.B
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/05/Screenshot%20from%202019-09-10%2017-26-26.png" width="50%" height="50%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2013B.png" width="80%" height="80%">
@@ -2110,10 +2110,6 @@ class WebApp:
         self._content = urlopen(self.url).read()
         return self.content
 ```
-
-<p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/05/Screenshot%20from%202019-09-10%2017-26-26.png" width="50%" height="50%">
-</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2020B.png" width="80%" height="80%">
