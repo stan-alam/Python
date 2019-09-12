@@ -828,7 +828,7 @@ def modify_tags(self, note_id, tags):
 # code block 71.A
 class Supplier(Contact):
     def order(self, order):
-        print( 
+        print(
             "If this were a prod system you would  send " f"'{order}' order to '{self.name}'"
         )
 ```
@@ -2033,15 +2033,15 @@ class TomFoolery:
     def _get_tomfoolery(self):
         print("You have engaged in tom foolery")
         return self._tomfoolery
-        
+
     def _set_tomfoolery(self, value):
         print("Why are you making tom foolery {}".format(value))
         self._silly = value
-    
+
     def _del_tomfoolery(self):
         print("bye, tom foolery")
         del self._tomfoolery
-        
+
     tomfoolery = property(_get_tomfoolery, _set_tomfoolery, _del_tomfoolery, "this is a tomfoolery property")
 ```
 
@@ -2111,9 +2111,10 @@ class WebApp:
         return self.content
 ```
 
-```text
-screencap 141.A
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/05/Screenshot%20from%202019-09-10%2017-26-26.png" width="50%" height="50%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2020B.png" width="80%" height="80%">
 </a>
