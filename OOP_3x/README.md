@@ -824,8 +824,16 @@ def modify_tags(self, note_id, tags):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%204A.png" width="80%" height="80%">
 </a>
 
-```text
+```Python
 # code block 71.A
+class Supplier(Contact):
+    def order(self, order):
+        print( 
+            "If this were a prod system you would  send " f"'{order}' order to '{self.name}'"
+        )
+```
+
+```text
 
 # ScreenCapture 71.B
 
@@ -2021,6 +2029,20 @@ print(c.name)
 
 ```Python
 # codeblock 137.A
+class TomFoolery:
+    def _get_tomfoolery(self):
+        print("You have engaged in tom foolery")
+        return self._tomfoolery
+        
+    def _set_tomfoolery(self, value):
+        print("Why are you making tom foolery {}".format(value))
+        self._silly = value
+    
+    def _del_tomfoolery(self):
+        print("bye, tom foolery")
+        del self._tomfoolery
+        
+    tomfoolery = property(_get_tomfoolery, _set_tomfoolery, _del_tomfoolery, "this is a tomfoolery property")
 ```
 
 ```text
