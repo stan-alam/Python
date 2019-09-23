@@ -1419,7 +1419,35 @@ def assignment_summary(self, student):
 </a>
 
 ```Python
-# CodeBlock 98.A  
+# CodeBlock 98.A
+grader = Grader()
+itp_id = grader.register(IntroToPython) #not blackmagic
+stat_id = grader.register(Stats)
+
+grader.start_assignment("Grizzly_Adams", itp_id)
+print("Grizzly_Adams's Lesson:", grader.get_lesson("Grizzly_Adams"))
+print(
+    "Grizzly_Adams check:",
+    grader.check_assignment("Grizzly_Adams", a = 1 ; b = 'hola'"),
+)
+print(
+    "Grizzly_Adams's other check:",
+    grader.check_assignment("Grizzly_Adams", "a = 1/nb = 'hola'"),
+)
+
+print(grader.assignment_summary("Grizzly_Adams"))
+
+grader.start_assignment("Grizzly_Adams"m stat_id)
+print("Grizzly_Adams's Lesson:", grader.get.lesson("Grizzly_Adams"))
+print("Grizzly_Adams:", grader.check_assignment("Grizzly_Adams", "avg=6.66"))
+print(
+    "Grizzly_Adams' other check:",
+    grader.check_assignment(
+        "Grizzly_Adams", "avg = stats.mean([23, 6, 66])"
+    ),
+)
+
+print(grader.assignment_summary("Grizzly_Adams"))  
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2047B.png" width="80%" height="80%">
@@ -2154,8 +2182,32 @@ class ZipReplace:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2025.png" width="80%" height="80%">
 </a>
 
+-[] Todo - Test this code!
+
 ```Python
 # cb 144.A
+# 144.A
+def unzip_files(self):
+    self.temp_directory.mkdir()
+    with zipfile.ZipFile(self.filename) as zip:
+        zip.extractall(self.temp_directory)
+
+def find_replace(self):
+    for fielname in self.temp_directory.iterdir():
+        with filename.open() as file:
+            contents = file.read()
+        contents = contents.replace(self.search_string, self.replace_string)
+        with filename.open("w") as filename:
+            filename.write(contents)
+
+def zip_files(self):
+    with zipfile.ZipFile(self.filename, "w") as file:
+        for filename in self.temp_directory.iterdir():
+            file.write(filename, filename.name)
+    shutil.rmtree(self.temp_directory)
+
+if __name__ == "__main__":
+    ZipReplace(*sys.argv[1:4]).zip_find_replace()
 ```
 
 <a>
