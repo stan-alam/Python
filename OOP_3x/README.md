@@ -2182,7 +2182,7 @@ class ZipReplace:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2025.png" width="80%" height="80%">
 </a>
 
--[] Todo - Test this code!
+- [] Todo - Test this code!
 
 ```Python
 # cb 144.A
