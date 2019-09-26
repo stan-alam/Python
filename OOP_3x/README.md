@@ -1040,8 +1040,47 @@ class Subclass(LeftSubclass, RightSubclass):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020A.png" width="80%" height="80%">
 </a>
 
-```text
+```Python
 # Code Block 80.A, ScreenCapture 81.A
+def call_me(self):
+    LeftSubclass.call_me(self)
+    RightSubclass.call_me(self)
+    print("Calling method on subclass")
+    self.num_sub_calls +=  1
+```
+
+```python
+class BaseClass:
+    num_base_calls = 0
+
+    def call_me(self):
+        print("Calling method on base class")
+        self.num_base_calls += 1
+
+class LeftSubclass(BaseClass):
+    num_left_calls = 0
+
+    def call_me(self):
+    super().call_me()
+    print("Calling the method on the left subclass")
+    self.num_left_calls += 1
+
+class RightSubclass(BaseClass):
+    num_right_calls = 0
+
+    def call_me(self):
+        super().call_me()
+        print("Calling method on the right subclass")
+        self.num_right_calls += 1
+
+class Subclass(LeftSubclass, RightSubclass):
+    num_sub_calls = 0
+
+    def call_me(self):
+    super().call_me()
+    print("Calling method on a subclass")
+    self.num_sub_calls += 1
+
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020B.png" width="80%" height="80%">
