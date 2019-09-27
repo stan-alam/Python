@@ -1029,7 +1029,7 @@ class Subclass(LeftSubclass, RightSubclass):
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/79AScreenCap.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/79AScreenCap.png" width="80%" height="80%">
 </p>
 
 <a>
