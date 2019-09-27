@@ -1029,7 +1029,7 @@ class Subclass(LeftSubclass, RightSubclass):
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/03/src/80AScreenCap.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/79AScreenCap.png" width="50%" height="50%">
 </p>
 
 <a>
@@ -1047,46 +1047,8 @@ def call_me(self):
     RightSubclass.call_me(self)
     print("Calling method on subclass")
     self.num_sub_calls +=  1
-```
-
-```python
-# CB 80.B
-class BaseClass:
-    num_base_calls = 0
-
-    def call_me(self):
-        print("Calling method on base class")
-        self.num_base_calls += 1
-
-class LeftSubclass(BaseClass):
-    num_left_calls = 0
-
-    def call_me(self):
-    super().call_me()
-    print("Calling the method on the left subclass")
-    self.num_left_calls += 1
-
-class RightSubclass(BaseClass):
-    num_right_calls = 0
-
-    def call_me(self):
-        super().call_me()
-        print("Calling method on the right subclass")
-        self.num_right_calls += 1
-
-class Subclass(LeftSubclass, RightSubclass):
-    num_sub_calls = 0
-
-    def call_me(self):
-    super().call_me()
-    print("Calling method on a subclass")
-    self.num_sub_calls += 1
 
 ```
-
-<p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/80A-BScreencap.png" width="80%" height="80%">
-</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020B.png" width="80%" height="80%">
