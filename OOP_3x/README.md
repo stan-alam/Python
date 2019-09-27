@@ -1041,7 +1041,7 @@ class Subclass(LeftSubclass, RightSubclass):
 </a>
 
 ```Python
-# Code Block 80.A, ScreenCapture 81.A
+# Code Block 80.A
 def call_me(self):
     LeftSubclass.call_me(self)
     RightSubclass.call_me(self)
@@ -1050,6 +1050,7 @@ def call_me(self):
 ```
 
 ```python
+# CB 80.B
 class BaseClass:
     num_base_calls = 0
 
@@ -1082,6 +1083,11 @@ class Subclass(LeftSubclass, RightSubclass):
     self.num_sub_calls += 1
 
 ```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/80A-BScreencap.png" width="80%" height="80%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020B.png" width="80%" height="80%">
 </a>
