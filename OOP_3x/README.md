@@ -1029,7 +1029,7 @@ class Subclass(LeftSubclass, RightSubclass):
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/master/OOP_3x/images/03/src/80AScreenCap.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/src/79AScreenCap.png" width="80%" height="80%">
 </p>
 
 <a>
@@ -1040,9 +1040,16 @@ class Subclass(LeftSubclass, RightSubclass):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020A.png" width="80%" height="80%">
 </a>
 
-```text
-# Code Block 80.A, ScreenCapture 81.A
+```Python
+# Code Block 80.A
+def call_me(self):
+    LeftSubclass.call_me(self)
+    RightSubclass.call_me(self)
+    print("Calling method on subclass")
+    self.num_sub_calls +=  1
+
 ```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/03/pyth3oop3%20-%2020B.png" width="80%" height="80%">
 </a>
