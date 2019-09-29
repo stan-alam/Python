@@ -2037,6 +2037,20 @@ print(c.name)
 
 ```Python
 # codeblock 135.B
+class Color:
+    def __init__(self, rgb_value, name):
+        self.rgb_value = rgb_value
+        self._name = name
+
+    def _set_name(self, name):
+        if not name:
+            raise Exception("Invalid name")
+
+    def _get_name(self):
+        return self.name
+
+    name = property(_get_name, _set_name)
+
 ```
 
 <a>
@@ -2108,6 +2122,23 @@ class TomFoolery:
 
 ```Python
 # codeblock 139.A
+class TomFoolery:
+    @property
+    def tomfoolery(self):
+        "this is a tomfoolery property"
+        print("What in Tomfoolery is going on here!?")
+        return self.tomfoolery
+
+    @tomfoolery.setter
+    def tomfoolery(self, value):
+       print ("You are tomfooling yourself {}".format(value))
+       self._tomfoolery = value
+
+    @tomfoolery.deleter
+    def tomfoolery(self):
+       print("You killed tomfoolery")
+       del self._tomfoolery
+
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2017.png" width="80%" height="80%">
