@@ -2346,6 +2346,10 @@ class ZipReplace(ZipProssr):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2034A.png" width="80%" height="80%">
 </a>
 
+```Python
+#cb 152A
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2034B.png" width="80%" height="80%">
 </a>
@@ -2366,6 +2370,23 @@ class ZipReplace(ZipProssr):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2038A.png" width="80%" height="80%">
 </a>
 
+```Python
+# cb 154
+class Character:
+    def __init__(self, character,
+            bold=False, italic=False, underline=False):
+        assert len(character) == 1
+        self.character = character
+        self.bold = bold
+        self.italic = italic
+        self.underline = underline
+
+def __str__(self):
+    bold = "*" if self.bold else ''
+    italic = "/" if self.italic else ''
+    underline = "_" if self.underline else ''
+    return bold + italic + underline + self.character
+```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2039.png" width="80%" height="80%">
 </a>
@@ -2377,6 +2398,25 @@ class ZipReplace(ZipProssr):
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2041A.png" width="80%" height="80%">
 </a>
+
+```Python
+#cb 156A
+def home(self):
+    while self.document.characters[
+            self.position-1].character != '\n':
+         self.position -= 1
+         if self.position == 0:
+         # go to begin of file before  /n
+             break
+
+def end(self):
+    while self.position < len (
+            self.document.characters) and \
+            self.document.characters[
+                    self.position
+                    ].character != '\n':
+            self.position += 1
+```
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2041B.png" width="80%" height="80%">
