@@ -2478,6 +2478,9 @@ def end(self):
 
 ```Python
 #cb 164.A
+from dataclasses import make_dataclass
+Stonk = make_dataclass("Stonk", "symbol", "current", "high", "low")
+stonk = Stonk("IBM", 180.00, high = 192.31, low = 68.00)
 ```
 
 <a>
@@ -2486,6 +2489,15 @@ def end(self):
 
 ```Python
 #cb 165.A
+class StonkRegularClass
+    def __init__(self, name, current, high, low):
+        self.name = name
+        self.current = current
+        self.high = high
+        self.low = low
+
+stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
+
 ```
 
 <a>
@@ -2493,7 +2505,7 @@ def end(self):
 </a>
 
 ```Python
-#cb 165.B
+#screenshot
 ```
 
 <a>
