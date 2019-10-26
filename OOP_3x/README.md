@@ -2634,3 +2634,49 @@ stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2044.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2045A.png" width="80%" height="80%">
+</a>
+
+```python
+# 181.A
+```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2045B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2046A.png" width="80%" height="80%">
+</a>
+
+```Python
+# 181.B
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2046B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2047A.png" width="80%" height="80%">
+</a>
+
+```scrncap
+182.A
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2047B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2048A.png" width="80%" height="80%">
+</a>
+
+```ScreenCap
+182.b
+```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2048B.png" width="80%" height="80%">
+</a>
