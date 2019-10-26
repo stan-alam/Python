@@ -2618,3 +2618,19 @@ stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2039.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2040.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2042.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2043.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2044.png" width="80%" height="80%">
+</a>
