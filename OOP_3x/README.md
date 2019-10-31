@@ -2586,6 +2586,18 @@ stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
 
 ```Python
 #cb 174.A - scrncap 174.B
+from collections import defaultdict
+
+
+num_items = 0
+
+def tuple_counter():
+    global num_items
+    num_items += 1
+    return (num_items, [])
+
+d = defaultdict(tuple_counter)
+
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2032B.png" width="80%" height="80%">
@@ -2598,6 +2610,22 @@ stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2034.png" width="80%" height="80%">
 </a>
+
+```Python
+# 175.A
+from collections import Counter
+
+responses = [
+    "bepsi",
+    "stonks",
+    "sheck"
+]
+
+print("they voted for {} meme_grammar".format (
+Counter(responses).most_common(1)[0][0]
+    )
+)
+```
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2035.png" width="80%" height="80%">
@@ -2627,9 +2655,53 @@ stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2042.png" width="80%" height="80%">
 </a>
 
+```Python
+# 179.A
+class Sortee:
+    def __init__(self, string, number, sort_num):
+        self.string = string
+        self.number = number
+        self.sort_num = sort_num
+
+    def __lt__(self, object):
+        if self.sort_num:
+            return self.number < object.number
+        return self.string < object.string
+
+    def __repr__(self):
+        return f"{self.string}:{self.number}"
+```
+
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2043.png" width="80%" height="80%">
 </a>
+
+```Python
+# 180.A
+from functools import total_ordering
+
+@total_ordering
+class Sortee:
+    def __init__(self, string, number, sort_num):
+        self.string = string
+        self.number = number
+        self.sort_num = sort_num
+
+    def __lt__(self, object):
+        if self.sort_num:
+            return self.number < object.number
+        return self.string < object.string
+
+    def __repr__(self):
+    	return f"{self.string}:{self.number}"
+
+def __eq__(self, object):
+    return all((
+    self.string == object.string,
+    self.number == object.number,
+    self.sort_num == object.number
+    ))
+```
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2044.png" width="80%" height="80%">
@@ -2679,4 +2751,34 @@ stonk_regular_class = Stonk("IBM", 189.00, high = 200.00, low = 183.00)
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2048B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2049.png" width="80%" height="80%">
+</a>
+
+```Python
+#183.A
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2050.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2051A.png" width="80%" height="80%">
+</a>
+
+```Python
+#184.A
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2051B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2052.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2053.png" width="80%" height="80%">
 </a>
