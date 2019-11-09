@@ -2810,3 +2810,63 @@ def __eq__(self, object):
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2058.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2059A.png" width="80%" height="80%">
+</a>
+
+```text
+ScreenCap 189.A
+
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2059B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2060.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2061.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062A.png" width="80%" height="80%">
+</a>
+
+```python
+#cb 190.A
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2063A.png" width="80%" height="80%">
+</a>
+
+```text
+#scrncap 190.A
+```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2063B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2064.png" width="80%" height="80%">
+</a>
+
+```python
+#cb 193.A
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2065.png" width="80%" height="80%">
+</a>
+
+**07**
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%201.png" width="80%" height="80%">
+</a>
