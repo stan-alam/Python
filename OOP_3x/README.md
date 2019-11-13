@@ -2567,6 +2567,11 @@ except:
 for key, value in random_keys.items():
     print ("{} has value {}".format(key, value))
 ```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/src/scrncap171A.png" width="80%" height="80%">
+</p>
+
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2023.png" width="80%" height="80%">
 </a>
