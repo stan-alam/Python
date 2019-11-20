@@ -2867,10 +2867,10 @@ ScreenCap 189.A
 #cb 190.A
 class LinkCollector:
     def __init__(self, url):
-        self.url = "http://+" + "urlparse(url).netloc 
+        self.url = "http://+" + "urlparse(url).netloc
         self.collected_links = set()
         self.visited_links = set()
-        
+
     def collect_links(self, path="/"):
     full_url = self.url + path
     self.visited_links.add(full_url)
@@ -2882,7 +2882,7 @@ class LinkCollector:
     unvisted_links = links.difference(
         self.visited_links)
     print(links, self.visited_links, self.collected_links, unvisited_links)
-        
+
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062B.png" width="80%" height="80%">
@@ -2903,7 +2903,9 @@ class LinkCollector:
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2064.png" width="80%" height="80%">
 </a>
-- [] test this code!
+
+-[] test this code!
+
 ```python
 #cb 193.A
 from urllib.request import urlopen
@@ -2918,7 +2920,7 @@ class LinkCollector:
         self.url = "http://%s" % urlparse(url).netloc
         self.collected_links = { }
         self.visisted_links = set()
-        
+
     def collect_links(self):
         queue = Queue()
         queue.put(self.url)
@@ -2938,7 +2940,7 @@ class LinkCollector:
             for link in unvisted_links:
                 if link.startswith(self.url):
                     queue.put(link)
-                    
+
     def normalize_url(self, path, link):
         if link.startswith("http://"):
             return link.rstrip('/')
@@ -2946,7 +2948,7 @@ class LinkCollector:
             return self.url + link.rstrip('/')
         else:
             return self.url + path.rpartition('/')[0] + '/' + link.rstrip('/')
-            
+
 if __name__ == "__main__":
     collector = LinkCollector(sys.argv[1])
     collector.collect_links()
@@ -2988,14 +2990,14 @@ normal_list = [1,2,3,4,5]
 class CustomSequence:
     def __len__(self):
         return 5
-        
+
     def __getitem__(self, index):
         return f"x{index}"
-        
+
 class FunkyBackwards:
     def __reversed__(self):
         return "Backwards!"
-        
+
 for seq in normal_list, CustomSequence(), FunkyBackwards():
     print(f"\n{seq.__class__.__name__}: ", end="")
 
