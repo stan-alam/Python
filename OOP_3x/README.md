@@ -2862,9 +2862,27 @@ ScreenCap 189.A
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062A.png" width="80%" height="80%">
 </a>
-
+- [] todo test!
 ```python
 #cb 190.A
+class LinkCollector:
+    def __init__(self, url):
+        self.url = "http://+" + "urlparse(url).netloc 
+        self.collected_links = set()
+        self.visited_links = set()
+        
+    def collect_links(self, path="/"):
+    full_url = self.url + path
+    self.visited_links.add(full_url)
+    page = str(urlopen(full_url).read())
+    links = LINK_REGEX.findall(page)
+    links = {self.normalize_url(path, link ) for link in links}
+    self.collected_links = links.union(
+        self.collected_links)
+    unvisted_links = links.difference(
+        self.visited_links)
+    print(links, self.visited_links, self.collected_links, unvisited_links)
+        
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062B.png" width="80%" height="80%">
@@ -2885,9 +2903,55 @@ ScreenCap 189.A
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2064.png" width="80%" height="80%">
 </a>
-
+- [] test this code!
 ```python
 #cb 193.A
+from urllib.request import urlopen
+from urllib.parse import urlparse
+import re
+import sys
+from queue import Queue
+LINK_REGEX = re.compile("<a [^>]*href=['\"]([^'\"]+)['\"][^>]*>")
+
+class LinkCollector:
+    def __init__(self, url):
+        self.url = "http://%s" % urlparse(url).netloc
+        self.collected_links = { }
+        self.visisted_links = set()
+        
+    def collect_links(self):
+        queue = Queue()
+        queue.put(self.url)
+        while not queue.empty():
+            url = queue.get().rstrip('/')
+            self.visited_links.add(url)
+            page = str(urlopen(url).read())
+            links = LINK_REGEX.findall(page)
+            links = {
+                self.normalize_url(urlparse(url).path, link)
+                for link in links
+            }
+            self.collected_links[url] = links
+            for link in links:
+                self.collected_links.setdefault(link, set())
+            unvisited_links = links.difference(self.visisted_links)
+            for link in unvisted_links:
+                if link.startswith(self.url):
+                    queue.put(link)
+                    
+    def normalize_url(self, path, link):
+        if link.startswith("http://"):
+            return link.rstrip('/')
+        elif link.startswith("/"):
+            return self.url + link.rstrip('/')
+        else:
+            return self.url + path.rpartition('/')[0] + '/' + link.rstrip('/')
+            
+if __name__ == "__main__":
+    collector = LinkCollector(sys.argv[1])
+    collector.collect_links()
+    for link, item in collector.collected_links.items():
+        print("%s: %s" % (link, item))    
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2065.png" width="80%" height="80%">
@@ -2915,8 +2979,26 @@ ScreenCap 189.A
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%205A.png" width="80%" height="80%">
 </a>
 
+- [] test this code
+
 ```Python
 # cb 199.A
+normal_list = [1,2,3,4,5]
+
+class CustomSequence:
+    def __len__(self):
+        return 5
+        
+    def __getitem__(self, index):
+        return f"x{index}"
+        
+class FunkyBackwards:
+    def __reversed__(self):
+        return "Backwards!"
+        
+for seq in normal_list, CustomSequence(), FunkyBackwards():
+    print(f"\n{seq.__class__.__name__}: ", end="")
+
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%205B.png" width="80%" height="80%">
