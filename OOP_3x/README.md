@@ -2904,7 +2904,7 @@ class LinkCollector:
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2064.png" width="80%" height="80%">
 </a>
 
--[] test this code!
+- [ ] Todo - Test this code!
 
 ```python
 #cb 193.A
@@ -2981,7 +2981,7 @@ if __name__ == "__main__":
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%205A.png" width="80%" height="80%">
 </a>
 
-- [] test this code
+- [ ] Todo - Test this code!
 
 ```Python
 # cb 199.A
