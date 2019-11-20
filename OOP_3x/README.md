@@ -2862,7 +2862,9 @@ ScreenCap 189.A
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062A.png" width="80%" height="80%">
 </a>
-- [] todo test!
+
+- [ ] Todo - Test this code!
+
 ```python
 #cb 190.A
 class LinkCollector:
@@ -2887,6 +2889,10 @@ class LinkCollector:
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2062B.png" width="80%" height="80%">
 </a>
+
+```Python
+# cb 192.A
+```
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2063A.png" width="80%" height="80%">
