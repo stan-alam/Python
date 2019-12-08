@@ -3106,3 +3106,34 @@ for seq in normal_list, CustomSequence(), FunkyBackwards():
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2028.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2029png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2030.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2031.png" width="80%" height="80%">
+</a>
+
+```Python
+# CB 210.A
+class Options:
+    default_options = {
+    'port': 22,
+    'host':'localhost',
+    'usrname': 'Homer',
+    'password': 'theSimpsons',
+    'debug': True,
+    }
+
+    def __init__(self, **karwgs):
+        self.options = dict(Options.default_options)
+        self.options.update(kwargs)
+
+    def __getitem__(self, key):
+        return self.options[key]
+```        
