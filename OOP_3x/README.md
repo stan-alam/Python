@@ -3108,7 +3108,7 @@ for seq in normal_list, CustomSequence(), FunkyBackwards():
 </a>
 
 <a>
-   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2029png" width="80%" height="80%">
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2029.png" width="80%" height="80%">
 </a>
 
 <a>
