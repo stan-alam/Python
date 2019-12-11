@@ -3014,6 +3014,13 @@ for seq in normal_list, CustomSequence(), FunkyBackwards():
 
 ```Python
 #cb 200.A
+import sys
+
+filename = sys.argv[1]
+
+with open(filename) as file:
+    for index, line in enumerate(file):
+        print(f"{index+1}: {line}", end="")
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%206.png" width="80%" height="80%">
@@ -3136,4 +3143,20 @@ class Options:
 
     def __getitem__(self, key):
         return self.options[key]
-```        
+```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2032.png" width="80%" height="80%">
+</a>        
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2033.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2034.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2035.png" width="80%" height="80%">
+</a>
