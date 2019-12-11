@@ -2839,6 +2839,17 @@ def __eq__(self, object):
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2058.png" width="80%" height="80%">
 </a>
 
+```html
+<html>
+  <body>
+    <a href="contactme.html">Contact Me!</a>
+    <a href="weblog.html">Checkout my cool blog</a>
+    <a href="doge.html">My Doge"<a/>
+    <a href="myhobbies.html">Guitar stuff</a>
+    <a href="https://ghostfish.io">"Stay groovy"</a>
+  <body>
+</html>
+``` 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2059A.png" width="80%" height="80%">
 </a>
