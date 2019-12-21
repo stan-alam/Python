@@ -2849,7 +2849,7 @@ def __eq__(self, object):
     <a href="https://ghostfish.io">"Stay groovy"</a>
   <body>
 </html>
-``` 
+```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2059A.png" width="80%" height="80%">
 </a>
@@ -3195,4 +3195,16 @@ def augmented_move(target_folder, *filename, verbose=True, **specific):
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2035.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2036.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2037.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2038.png" width="80%" height="80%">
 </a>
