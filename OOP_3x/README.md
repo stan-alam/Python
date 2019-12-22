@@ -1502,16 +1502,16 @@ ScreenCapture 104.B - 104.C
 
 ```Python
 # CodeBlock 105.A
+#105.A
+def call_exceptor():
+    print("call_exceptor starts here...")
+    no_return()
+    print("an exception is raised")
+    print("....so this won't print")
 ```
-
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%205B.png" width="80%" height="80%">
 </a>
-
-```text
-ScreenCapture 105.B
-
-```
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%205C.png" width="80%" height="80%">
@@ -1521,17 +1521,17 @@ ScreenCapture 105.B
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%206.png" width="80%" height="80%">
 </a>
 
-```text
-ScreenCapture 106.B
-
-```
-
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%207.png" width="80%" height="80%">
 </a>
 
 ```Python
 # CodeBlock 107.A
+def funny_division(divider):
+    try:
+        return 100 / divider
+    except ZeroDivisionError:
+        return "Zero is nil"
 ```
 
 ```text
