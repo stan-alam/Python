@@ -1539,7 +1539,7 @@ ScreenCapture 107.B
 ```
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/107B.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/107B.png" width="70%" height="70%">
 </p>
 
 <a>
