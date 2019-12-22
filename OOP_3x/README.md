@@ -1564,8 +1564,11 @@ def funny_division2(divider):
 
 ```text
 ScreenCapture 108.B
-
 ```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/108B.png" width="70%" height="70%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%209B.png" width="80%" height="80%">
 </a>
