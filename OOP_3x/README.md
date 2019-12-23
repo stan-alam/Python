@@ -1703,12 +1703,23 @@ ScreenCapture 110.B
 
 ```Python
 # CodeBlock 113.A
+#113.A
+class InvalidWithDrawal(Exception):
+    def __init__(self, balance, amnt):
+        super().__init__(f"account does not have sufficient funds for ${amount}")
+        self.amount = amount
+        self.balance = balance
+    def overage(self):
+        return self.amount - self.balance
 ```
 
 ```text
 ScreenCapture 113.B
-
 ```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/113B.png" width="75%" height="75%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2018B.png" width="80%" height="80%">
 </a>
