@@ -1592,6 +1592,19 @@ ScreenCapture 108.C
 
 ```Python
 # CodeBlock 109.A
+#109.A
+def funny_div3(divider):
+    try:
+        if divider == 42:
+            print("42 is a special number in the multiverse(s)")
+        return 100 / divider
+    except ZeroDivisionError:
+        return "C'mon don't enter 0!"
+    except TypeError:
+        return "Enter a number value"
+    except ValueError:
+        print("no, the multiverse(s) says NOT 42!")
+        raise
 ```
 
 <a>
@@ -1605,6 +1618,13 @@ ScreenCapture 108.C
 ```Python
 # CodeBlock 109.B
 ```
+
+```text
+#screencap 109AB
+```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/109AB.png" width="75%" height="75%">
+</p>
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2012A.png" width="80%" height="80%">
