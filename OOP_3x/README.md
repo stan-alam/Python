@@ -1705,7 +1705,7 @@ ScreenCapture 110.B
 # CodeBlock 113.A
 #113.A
 class InvalidWithDrawal(Exception):
-    def __init__(self, balance, amnt):
+    def __init__(self, balance, amount):
         super().__init__(f"account does not have sufficient funds for ${amount}")
         self.amount = amount
         self.balance = balance
@@ -1802,8 +1802,24 @@ class Inventory:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2022A.png" width="80%" height="80%">
 </a>
 
+- [] Test This code!
+
 ```Python
 # CodeBlock 116.A #2
+#162A-2
+item_type = "widget"
+inv = Inventory()
+inv.lock(item.type)
+try:
+    num_left = inv.purchase(item_type)
+except InvalidItemType:
+    print("sorry, the item you requested {}".format(item_type))
+except OutOfStock:
+    print("not available")
+else:
+    print("Purchase is complete. There are {num_lef} {item_left} {item_type}s left")
+finally:
+    inv.unlock(item_type)
 ```
 
 <a>
