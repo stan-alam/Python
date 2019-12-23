@@ -1645,12 +1645,34 @@ except ValueError as e:
 
 ```Python
 # CodeBlock 110.A
+#110.A
+import random
+here_and_there_exceptions = [ValueError, TypeError, IndexError, None]
+
+try:
+    choice = random.choice(here_and_there_exceptions)
+    print("raising...{}".format(choice))
+    if choice:
+       raise choice("An error has occured")
+except ValueError:
+    print("Just caught a value error")
+except TypeError:
+    print("You just caused a Type Error")
+except Exception as e:
+    print('Caught some "weird" error ..?: %s' % (e.__class__.__name__))
+else:
+    print("Hi, there were no exception...means whatever runs here will run!")
+finally:
+    print("This cleanup code will run no matter what... e.g. to clean up test env")
 ```
 
 ```text
 ScreenCapture 110.B
-
 ```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/110B.png" width="75%" height="75%">
+</p>
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2013.png" width="80%" height="80%">
 </a>
