@@ -1607,6 +1607,14 @@ def funny_div3(divider):
         raise
 ```
 
+```text
+#screencap 109AB
+```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/109AB.png" width="75%" height="75%">
+</p>
+
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2010B.png" width="80%" height="80%">
 </a>
@@ -1625,10 +1633,10 @@ except ValueError as e:
 ```
 
 ```text
-#screencap 109AB
+#screencap 109B
 ```
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/109AB.png" width="75%" height="75%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/src/109B.png" width="75%" height="75%">
 </p>
 
 <a>
