@@ -2847,6 +2847,14 @@ from operator import itemgetter
 l = [('h', 4), ('n', 6), ('o', 5), ('p', 1), ('t', 3), ('y', 21)]
 ```
 
+```text   
+screencap 181.A
+```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/src/181A.png" width="80%" height="80%">
+</p>
+
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/06/Pyth3oop6%20-%2045B.png" width="80%" height="80%">
 </a>
