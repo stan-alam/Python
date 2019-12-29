@@ -31,3 +31,15 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%208.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%209.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2010.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2011.png" width="80%" height="80%">
+</a>
