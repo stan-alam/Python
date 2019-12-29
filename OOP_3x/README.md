@@ -3377,3 +3377,31 @@ def augmented_move(target_folder, *filename, verbose=True, **specific):
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2043B.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2044.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2045.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2046.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2047.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2048.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2049.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/07/Pyth3oop7%20-%2050.png" width="80%" height="80%">
+</a>
