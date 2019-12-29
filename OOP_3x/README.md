@@ -3360,6 +3360,26 @@ def augmented_move(target_folder, *filename, verbose=True, **specific):
 
 ```Python
 # 215.A
+
+def stan_function():
+    print("Stan's function was called")
+
+stan_function.description = "Stan's function is totally radical, dude!"
+
+def second_function():
+    print("The other function was called")
+
+second_function.description = "This function is awesome!!!"
+
+def yet_another_function(function):
+    print("The description:", end=" ")
+    print(function.description)
+    print("the name:", end=" ")
+    print(function.__name__)
+    print("The class:", end=" ")
+    print(function.__class__)
+    print("Now We'll call the function that was passed to us!")
+    function
 ```
 
 <a>
@@ -3372,6 +3392,34 @@ def augmented_move(target_folder, *filename, verbose=True, **specific):
 
 ```Python
 # 216.A
+import datetime
+import time
+
+class TimedEvent:
+    def __init__(self, endtime, callback):
+        self.endtime = endtime
+        self.callback = callback
+
+    def ready(self):
+        return self.edndtime <= datetime.datetime.now()
+
+class Timer:
+    def __init__(self):
+        self.events = []
+
+    def call_after(self, delay, callback):
+        end_time = datetime.datetime.now() + datetime.timedelta(seconds=delay)
+
+        self.events.append(TimedEvent(end_time, callback))
+
+    def run(self):
+        while True:
+            ready_events = (e for e in self.events if e.ready())
+            for event in ready_events:
+                event.callback(self)
+                self.events.remove(event)
+            time.sleep(0.5)
+
 ```
 
 <a>
