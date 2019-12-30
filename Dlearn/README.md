@@ -111,3 +111,31 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2028.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2029.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2030.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2031.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2032.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2033.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2034.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/01/deepPyth01%20-%2035.png" width="80%" height="80%">
+</a>
