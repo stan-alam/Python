@@ -2447,6 +2447,10 @@ class ZipReplace(ZipProssr):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2033A.png" width="80%" height="80%">
 </a>
 
+```Python
+#cb 150.A
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/05/Pyth3oop5%20-%2033B.png" width="80%" height="80%">
 </a>
