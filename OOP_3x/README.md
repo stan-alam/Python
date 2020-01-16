@@ -1802,7 +1802,7 @@ class Inventory:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/04/Pyth3oop4%20-%2022A.png" width="80%" height="80%">
 </a>
 
-- [] Test This code!
+- [ ] Todo - Test this code!
 
 ```Python
 # CodeBlock 116.A #2
