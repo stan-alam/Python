@@ -3340,6 +3340,21 @@ def augmented_move(target_folder, *filename, verbose=True, **specific):
 
 ```Python
 #213.A
+def show_args(arg1, arg2, arg3="THREE"):
+    print(arg1, arg2, arg3)
+
+some_args = range(3)
+more_args = {
+       "arg1": "ONE",
+       "arg2": "TWO"}
+
+print("Unpacking a sequence:", end=" ")
+
+show_args(*some_args)
+print("Unpacking a dict:", end=" ")
+
+show_args(**more_args)
+
 ```
 
 <a>
@@ -3583,4 +3598,40 @@ scrncap 222A-223A
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%204.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%205.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%206.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%207.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%208.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%209.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2010.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2011.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2012.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2013.png" width="80%" height="80%">
 </a>
