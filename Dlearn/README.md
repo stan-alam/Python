@@ -273,3 +273,19 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/02/deepPyth02%20-%2015.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/02/deepPyth02%20-%2016.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/02/deepPyth02%20-%2017.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/02/deepPyth02%20-%2018.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/Dlearn/images/02/deepPyth02%20-%2019.png" width="80%" height="80%">
+</a>
