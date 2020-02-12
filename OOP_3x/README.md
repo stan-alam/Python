@@ -3665,7 +3665,42 @@ scrncap 222A-223A
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2016A.png" width="80%" height="80%">
 </a>
+      #237.A
+      message["emails"] = emails
 
+      formatted = f"""
+      From: <{message['emails'][0]}>
+      To: <{message['emails'][1]}>
+      Subject: {message['subject']}
+      {message['message']}"""
+      print(formatted)
+
+      #237.B
+      class Email:
+        def __init__(self, from_addr, to_addr, subject, messasge):
+          self.from_addr = from_addr
+          self.to_addr = to_addr
+          self.subject = subject
+          self._message = message
+
+        def message(self):
+            return self.message
+
+      email = Email(
+        "Tom_Hanks@castaway.com",
+        "Grizzly_Adams@wilderness.com",
+        "You've got mail!",
+        "Take this email!",
+      )
+
+      formatted = f"""
+      From: <{email.from_addr}>
+      To: <{email.to_addr}>
+      Subject: {email.subject}
+
+      {email.message()}"""
+      print(formatted)
+"""
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2016B.png" width="80%" height="80%">
 </a>
