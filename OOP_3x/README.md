@@ -3725,6 +3725,18 @@ scrncap 222A-223A
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2020.png" width="80%" height="80%">
 </a>
 
+```Python
+orders = [("burger", 2, 5), ("fries", 4.2, 0), ("Bepsi", 1.75, 3)]
+
+print("Product Quantity price Subtotal")
+for product, price, quantity in orders:
+    subtotal = price * quantity
+    print(
+            f"{product:10s}{quantity: ^9d} "
+            f"${price: <8.2}${subtotal: >7.2f}"
+         )
+```
+
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2021.png" width="80%" height="80%">
 </a>
