@@ -3644,6 +3644,20 @@ scrncap 222A-223A
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2015A.png" width="80%" height="80%">
 </a>
 
+        #236.A
+        emails = ("Tom_Hanks@castaway.com", "Grizzly_Adams@wilderness.com")
+        message = {
+                "subject": "Here's some mail for ya",
+                "message": "640K is enough RAM",
+        }
+
+        formatted = f"""
+        From: <emails[0]>
+        To: <emails[1]>
+        Subject: {message['subject']}"""
+        {message['message']}"""
+        print(formatted)
+
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2015B.png" width="80%" height="80%">
 </a>

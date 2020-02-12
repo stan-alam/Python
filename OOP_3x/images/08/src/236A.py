@@ -10,4 +10,3 @@ To: <emails[1]">
 Subject: {message['subject']}"""
 {message['message']}"""
 print(formatted)
-
