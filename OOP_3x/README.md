@@ -3644,6 +3644,20 @@ scrncap 222A-223A
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2015A.png" width="80%" height="80%">
 </a>
 
+        #236.A
+        emails = ("Tom_Hanks@castaway.com", "Grizzly_Adams@wilderness.com")
+        message = {
+                "subject": "Here's some mail for ya",
+                "message": "640K is enough RAM",
+        }
+
+        formatted = f"""
+        From: <emails[0]>
+        To: <emails[1]>
+        Subject: {message['subject']}"""
+        {message['message']}"""
+        print(formatted)
+
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2015B.png" width="80%" height="80%">
 </a>
@@ -3651,7 +3665,42 @@ scrncap 222A-223A
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2016A.png" width="80%" height="80%">
 </a>
+      #237.A
+      message["emails"] = emails
 
+      formatted = f"""
+      From: <{message['emails'][0]}>
+      To: <{message['emails'][1]}>
+      Subject: {message['subject']}
+      {message['message']}"""
+      print(formatted)
+
+      #237.B
+      class Email:
+        def __init__(self, from_addr, to_addr, subject, messasge):
+          self.from_addr = from_addr
+          self.to_addr = to_addr
+          self.subject = subject
+          self._message = message
+
+        def message(self):
+            return self.message
+
+      email = Email(
+        "Tom_Hanks@castaway.com",
+        "Grizzly_Adams@wilderness.com",
+        "You've got mail!",
+        "Take this email!",
+      )
+
+      formatted = f"""
+      From: <{email.from_addr}>
+      To: <{email.to_addr}>
+      Subject: {email.subject}
+
+      {email.message()}"""
+      print(formatted)
+"""
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2016B.png" width="80%" height="80%">
 </a>
@@ -3675,6 +3724,18 @@ scrncap 222A-223A
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2020.png" width="80%" height="80%">
 </a>
+
+```Python
+orders = [("burger", 2, 5), ("fries", 4.2, 0), ("Bepsi", 1.75, 3)]
+
+print("Product Quantity price Subtotal")
+for product, price, quantity in orders:
+    subtotal = price * quantity
+    print(
+            f"{product:10s}{quantity: ^9d} "
+            f"${price: <8.2}${subtotal: >7.2f}"
+         )
+```
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2021.png" width="80%" height="80%">
