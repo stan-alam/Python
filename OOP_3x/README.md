@@ -3835,8 +3835,24 @@ for product, price, quantity in orders:
 
 ```Python
 #cb248.A
-# screencap 248.B
+import sys
+import re
+
+pattern = sys.argv[1] #argument vector!
+search_string = sys.argv[2]
+match = re.match(pattern, search_string)
+
+if match:
+    template = "'{}' matches patern '{}'"
+else:
+    template = "'{}' does not match pattern '{}'"
+
+print(template.format(search_string, pattern))
 ```
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/src/248B.png" width="50%" height="50%">
+</p>
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2044B.png" width="80%" height="80%">
