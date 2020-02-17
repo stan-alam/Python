@@ -3851,7 +3851,7 @@ print(template.format(search_string, pattern))
 ```
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/src/248B.png" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/src/248B.png" width="125%" height="125%">
 </p>
 
 <a>
