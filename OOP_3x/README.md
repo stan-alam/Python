@@ -3954,21 +3954,9 @@ print(template.format(search_string, pattern))
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2061.png" width="80%" height="80%">
 </a>
 
-<a>
-   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2062.png" width="80%" height="80%">
-</a>
-
-<a>
-   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2063.png" width="80%" height="80%">
-</a>
-
-<a>
-   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2061.png" width="80%" height="80%">
-</a>
-
-<a>
-   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2062.png" width="80%" height="80%">
-</a>
+```Python
+#256.A
+```
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2062.png" width="80%" height="80%">
