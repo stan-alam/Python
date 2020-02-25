@@ -3933,3 +3933,87 @@ print(template.format(search_string, pattern))
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2058B.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2059.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2060A.png" width="80%" height="80%">
+</a>
+
+```Python
+#255.A
+```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2060B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2061.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2062.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2063.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2061.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2062.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2062.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2063.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2064.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2065.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2066.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2067.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2068A.png" width="80%" height="80%">
+</a>
+
+```Python
+#258.A
+```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2068B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2069.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2070.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2071.png" width="80%" height="80%">
+</a>
