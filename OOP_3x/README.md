@@ -3936,6 +3936,9 @@ if match:
 ```scrncap   
 #254.A
 ```
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/src/254A.png" width="80%" height="80%">
+</p>
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2058B.png" width="80%" height="80%">
