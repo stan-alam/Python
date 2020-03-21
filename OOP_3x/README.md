@@ -3998,8 +3998,19 @@ if match:
 
 ```Python
 #258.A
-```
+import pickle
 
+my_data = ["some kind of list", "containing", 5, "values including another list", ["inner", "list"]]
+
+with open("pickled_list", 'a') as file:
+    pickle.dump(my_data, file)
+
+with open("pickled_list" 'b') as file:
+    loaded_data = pickle.load(file)
+
+print(loaded_data)
+assert loaded_data == my_data
+```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2068B.png" width="80%" height="80%">
 </a>
@@ -4043,7 +4054,6 @@ class UpdatedUrl:
         self.timer.setDaemon(True)
         self.timer.start()
 ```
-
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2072B.png" width="80%" height="80%">
 </a>
