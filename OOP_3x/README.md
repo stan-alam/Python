@@ -1,5 +1,5 @@
 ## Object Oriented Programming in Python 3.8
-
+ **to pass the github public-rate limit - login with your github account to view README.md**
 Objective : Finish basic OOP in Python 3.8
 
 **Motivation**
@@ -4131,4 +4131,16 @@ class UpdatedUrl:
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2082B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2083.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2084A.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2084B.png" width="80%" height="80%">
 </a>
