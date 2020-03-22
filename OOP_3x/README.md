@@ -1,4 +1,4 @@
-# To view the README in it's entirety, login to Github
+# To view the README in its entirety, login to Github
 ## this will bypass the ratelimit
 
 Objective : Finish basic OOP in Python 3.8
