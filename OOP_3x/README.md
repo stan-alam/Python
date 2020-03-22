@@ -1,7 +1,5 @@
-## Object Oriented Programming in Python 3.8
-
-## Login to Github to bypass the ratelimit and view the whole README.md
-
+# To view the README in it's entirety, login to Github
+## this will bypass the ratelimit
 
 Objective : Finish basic OOP in Python 3.8
 
