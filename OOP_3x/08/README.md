@@ -562,3 +562,29 @@ class UpdatedUrl:
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2084B.png" width="80%" height="80%">
 </a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2085A.png" width="80%" height="80%">
+</a>
+
+```Python
+#268.A  
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2085B.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2086.png" width="80%" height="80%">
+</a>
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2087.png" width="80%" height="80%">
+</a>
+
+```Python
+#269.A  
+```
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2088.png" width="80%" height="80%">
+</a>
