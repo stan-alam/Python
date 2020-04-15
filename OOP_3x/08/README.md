@@ -539,6 +539,13 @@ class UpdatedUrl:
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2081A.png" width="80%" height="80%">
 </a>
 
+```Python
+#265.A
+```
+
+```Python
+#265.B
+```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2081B.png" width="80%" height="80%">
 </a>
