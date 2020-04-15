@@ -582,8 +582,39 @@ class UpdatedUrl:
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2087.png" width="80%" height="80%">
 </a>
 
-```Python
-#269.A  
+```html
+<!--- 269.A-->
+<html>
+
+<body>
+
+<h1>Coolest Title</h1>
+<a href="link1.html">Uno Link</a>
+<a href="link2.html">Dos Link</a>
+
+<p>Stay groovy! here are the contents</p>
+<table>
+  <tr>
+    <th>Some books</th>
+  </tr>
+
+  <tr>
+    <td>Breif History of Time</td>
+  </tr>
+
+  <tr>
+    <td>C++ for Dummies</td>
+  </tr>
+
+  <tr>
+    <td>Python is for dummies</td>
+  </tr>
+
+  </table>
+  </body>
+
+  </html>
+  Copyleft &copy; Today
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2088.png" width="80%" height="80%">
