@@ -540,29 +540,20 @@ class UpdatedUrl:
 </a>
 
 ```Python
-#265A.py
-def process_loopy_loop(self, match, argument):
-    self.loop_index = 0
-    self.loop_list = self.context.get(argument, [])
-    self.pos = self.loop_pos = match.end()
 
-def process_loopvar(self, match, argument):
-    self.outfile.write(self.loop_list[self.loop.index])
-    self.pos = match.end()
-
-def process_endloop(self, match, argument):
-    self.loop_index += 1
-    if self.loop_index >= len(self.loop_list):
-        self.pos = match.end()
-        del self.loop_index
-        del self.loop_list
-        del self.loop_pos
-    else:
-        self.pos = self.loop_pos
 ```
 
-```Python
-#265.B
+```js
+//265.B
+{
+    "name": "Beavis",
+    "tv_dir": [
+        "MTV",
+        "VH1",
+        "MTV3",
+        "MTV2"
+    ]
+}
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2081B.png" width="80%" height="80%">
@@ -660,10 +651,41 @@ if __name__ == "__main__":
 
 ```Python
 #268.A
+def process_include(self, match, argument):
+    with(self.working_dir / argument).open() as include_file:
+        self.outfile.write(include_file.read())
+        self.pos = match.end()
+
+def process_variable(self, match, argument):
+    self.outfile.write(self.context.get(argument, ''))
+    self.pos = match.end()
+
 ```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2085B.png" width="80%" height="80%">
 </a>
+
+```Python
+#268B.py
+def process_loopy_loop(self, match, argument):
+    self.loop_index = 0
+    self.loop_list = self.context.get(argument, [])
+    self.pos = self.loop_pos = match.end()
+
+def process_loopvar(self, match, argument):
+    self.outfile.write(self.loop_list[self.loop.index])
+    self.pos = match.end()
+
+def process_endloop(self, match, argument):
+    self.loop_index += 1
+    if self.loop_index >= len(self.loop_list):
+        self.pos = match.end()
+        del self.loop_index
+        del self.loop_list
+        del self.loop_pos
+    else:
+        self.pos = self.loop_pos
+```
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/Pyth3oop8%20-%2086.png" width="80%" height="80%">
