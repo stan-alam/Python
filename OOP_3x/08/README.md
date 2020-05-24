@@ -131,6 +131,18 @@
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2018A.png" width="80%" height="80%">
 </a>
 
+```Python
+#238.A
+subtotal = 12.32
+tax = subtotal * 0.07
+total = subtotal + tax
+
+print (
+    "Sub: ${0} Tax: ${1} Total: ${total}".format (
+        subtotal, tax, total=total
+    )
+)
+```
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2018B.png" width="80%" height="80%">
 </a>
@@ -144,6 +156,7 @@
 </a>
 
 ```Python
+#239A
 orders = [("burger", 2, 5), ("fries", 4.2, 0), ("Bepsi", 1.75, 3)]
 
 print("Product Quantity price Subtotal")
@@ -372,7 +385,14 @@ if match:
 
 ```Python
 #255.A
+import os
+path = os.path.abspath(os.sep.join(['.', 'subdir', 'subsubdir', 'file.ext'])
+print(path)
 ```
+
+<a>
+   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/08/images/255A.png" width="80%" height="80%">
+</a>
 
 <a>
    <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/08/Pyth3oop8%20-%2060B.png" width="80%" height="80%">
