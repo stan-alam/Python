@@ -156,6 +156,7 @@ print (
 </a>
 
 ```Python
+#239A
 orders = [("burger", 2, 5), ("fries", 4.2, 0), ("Bepsi", 1.75, 3)]
 
 print("Product Quantity price Subtotal")
@@ -384,6 +385,9 @@ if match:
 
 ```Python
 #255.A
+import os
+path = os.path.abspath(os.sep.join(['.', 'subdir', 'subsubdir', 'file.ext'])
+print(path)
 ```
 
 <a>
