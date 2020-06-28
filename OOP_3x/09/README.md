@@ -111,13 +111,25 @@ scrncap 276.A
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2022A.png" width="80%" height="80%">
 </a>
 
+```Python
+#283.A
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2022B.png" width="80%" height="80%">
 </a>
 
+```Python
+#283.B
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2022C.png" width="80%" height="80%">
 </a>
+
+```Python
+#283.C
+```
 
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2023.png" width="80%" height="80%">
