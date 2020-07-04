@@ -412,3 +412,47 @@ log.children.append(File("kernal"))
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2062.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2063A.png" width="80%" height="80%">
+</a>
+
+```Python
+# cb 301.A
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2063B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2064A.png" width="80%" height="80%">
+</a>
+
+```Python
+# cb
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2064B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2065A.png" width="80%" height="80%">
+</a>
+
+```Python
+# cb
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2065B.png" width="80%" height="80%">
+</a>
+
+```Python
+# cb
+```
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2066.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2067.png" width="80%" height="80%">
+</a>
