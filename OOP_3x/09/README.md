@@ -25,6 +25,10 @@
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%206.png" width="80%" height="80%">
 </a>
 
+```Python
+#275.A
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%207A.png" width="80%" height="80%">
 </a>
@@ -146,7 +150,7 @@ with open(inname) as infile:
 </a>
 
 ```Python
-#283C 
+#283C
 class WarningFilter:
     def __init__(self, insequence):
         self.insequence = insequence
