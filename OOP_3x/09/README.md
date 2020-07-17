@@ -199,6 +199,8 @@ class WarningFilter:
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2030.png" width="80%" height="80%">
 </a>
 
+https://github.com/stan-alam/science/tree/master/CS/comp-sciPyth
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2031A.png" width="80%" height="80%">
 </a>
@@ -336,7 +338,7 @@ log.children.append(File("kernal"))
 </a>
 
 ```Python
-#298.A 
+#298.A
 ```
 
 <a>
