@@ -352,3 +352,11 @@ log.children.append(File("kernal"))
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2056.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2057.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2058.png" width="80%" height="80%">
+</a>
