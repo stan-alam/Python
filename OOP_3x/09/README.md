@@ -27,6 +27,28 @@
 
 ```Python
 #275.A
+class CapitalIterable:
+    def __init__(self, string):
+        self.string = string
+
+    def __iter__(self):
+        return CapitalIterator(self.string)
+
+class CapitalIterator:
+    def __init__(self, string):
+        self.words = [w.capitalize() for w in string.split()]
+        self.index = 0
+
+    def __next__(self):
+        if self.index == len(self.words):
+            raise StopIteration()
+
+        word = self.words[self.index]
+        self.index += 1
+        return word
+
+    def __iter__(self):
+        return self
 ```
 
 <a>
@@ -70,6 +92,20 @@ scrncap 276.A
 
 ```Python
 #279.A
+import sys
+
+filename = sys.argv[1]
+
+with open(filename) as file:
+    header = file.readline().strip().split("\t")
+contacts = [
+dict(
+zip(header, line.stripe().split("\t"))
+)]
+
+for contact in contacts:
+    print("email: {email} -- {last}, {first}".format(**contact))
+
 ```
 
 <a>
