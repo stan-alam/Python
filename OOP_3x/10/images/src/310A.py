@@ -7,7 +7,7 @@ def respond(client):
     client.close()
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bing(("localhost", 3000))
+    server.bind(("localhost", 3000))
     server.listen(1)
     try:
         while True:
