@@ -429,6 +429,15 @@ def load_colors(filename):
 
 ```Python
 # cb 301.A
+from collections import Counter
+
+def name_pigments(model_colors, target_colors, num_neighbors=5):
+  for target, near in nearest_neighbors(
+    model_colors, target_colors, num_neighbors=5
+  ):
+    print(target, near)
+    name_guess = Counter(n[1] for n in near).most_common()[0][0]
+    yield target, name_guess
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2063B.png" width="80%" height="80%">
@@ -439,7 +448,8 @@ def load_colors(filename):
 </a>
 
 ```Python
-# cb
+# cb302.A
+
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2064B.png" width="80%" height="80%">
@@ -450,7 +460,15 @@ def load_colors(filename):
 </a>
 
 ```Python
-# cb
+# cb302B
+def process_colors(dataset_file_name="pigments.csv"):
+  model_colors = load_colors(dataset_file_name)
+  colors = name_colors(model_colors, generate_colors(), 5)
+  write_results(colors)
+
+
+if __name__ == "__main__":
+  process_colors()
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2065B.png" width="80%" height="80%">
