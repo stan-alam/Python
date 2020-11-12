@@ -415,6 +415,24 @@ def load_colors(filename):
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2060.png" width="80%" height="80%">
 </a>
 
+```Python
+# cb300.A
+from random import randint
+
+def generate_colors(count=100):
+  for i in range(count):
+    yield (randint(0, 255), randint(0, 255), randint(0, 255))
+```
+```Python
+# cb300.B
+def color_distance(color1, color2):
+  channels = zip(color1, color2)
+  sum_distance_squared = 0
+  for c1, c2 in channels:
+    sum_distance_squared += (c1 - c2) ** 2
+  return sum_distance_squared
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%2061.png" width="80%" height="80%">
 </a>
@@ -449,7 +467,11 @@ def name_pigments(model_colors, target_colors, num_neighbors=5):
 
 ```Python
 # cb302.A
-
+def write_results(colors, filename="output.csv"):
+  with open(filename, "w") as file:
+    writer = csv.writer(file)
+    for (r, g, b), name in colors:
+        writer.writerow([name, f"#{r:02x}{g:02x}{b:20x}"])
 ```
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/09/images/Pyth3oop9%20-%20page%2064B.png" width="80%" height="80%">
