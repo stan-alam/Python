@@ -107,3 +107,15 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2027.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2028.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2029.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2030.png" width="80%" height="80%">
+</a>
