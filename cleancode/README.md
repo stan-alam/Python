@@ -131,3 +131,36 @@
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2033.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2034.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2035.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2036.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2037.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2038.png" width="80%" height="80%">
+</a>
+
+```python
+
+from django.core.validators import MaxValueValidator, MinValueValidator
+from django.db import models
+
+class SalesItem(models.Model):
+	user_account_id = models.BigIntegerField()
+	name = models.CharField(max_length=256)
+	price = models.IntegerField(
+		validators[MinValueValidator(1), MaxValueValidator(2147483647)]
+	)
+```
