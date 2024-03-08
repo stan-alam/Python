@@ -169,6 +169,17 @@ class SalesItem(models.Model):
   <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2039.png" width="80%" height="80%">
 </a>
 
+```python
+from rest_framework import serializers #using rest_framework to serialize the data (from models to json)
+from .models import SalesItem
+
+class SalesItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SalesItem
+        fields = ['id', 'user_account_id', 'name', 'price']
+# may need to check if this pep8 complient
+```
+
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2040.png" width="80%" height="80%">
 </a>
