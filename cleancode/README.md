@@ -225,3 +225,23 @@ class SalesItemViewSet(viewsets.ModalViewSet):
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2044.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2045.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2046.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2047.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2048.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/cleancode/images/03/cleancodepy03%20-%20page%2049.png" width="80%" height="80%">
+</a>
