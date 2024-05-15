@@ -102,3 +102,21 @@ ENV/
 
 #FixFlashCards Venv
 ./FixFlashCards/venv
+
+#TWS_UI Venv
+./TWS_UI/venv
+
+#TWS_UI Venv
+./TWS_UI/.venv
+
+#TWS_UI Scripts
+./TWS_UI/scripts
+./TWS_UI/Include
+./TWS_UI/Lib
+./TWS_UI/libs
+./TWS_UI/Scripts
+./TWS_UI/tcl
+./TWS_UI/tools
+./TWS_UI/Tools
+./TWS_UI/Doc
+./TWS_UI/HTML
