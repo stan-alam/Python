@@ -1,1 +1,1 @@
-print("stan is NOT a 10x engineer")
+print("stan is NOT awesome")
