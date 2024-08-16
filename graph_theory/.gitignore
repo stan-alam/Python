@@ -1,0 +1,30 @@
+# ignore all files with the extension .pyc
+*.pyc
+
+# ignore all files with the extension .log
+*.log
+# ignore all binaries
+*.bin
+#ignore the scripts directory recusively
+scripts/**
+scripts/*.sh
+#ignore the lib directory recursively
+Lib/**
+
+#ignore the build directory
+build/**
+
+#ignore the dist directory
+dist/**
+
+#ignore the /images/src/venv directory
+images/src/venv/**
+
+#ignore the /images/src/Lib directory
+images/src/Lib/**
+
+#ignore the /images/src/Include directory
+images/src/Include/**
+
+#ignore the /images/src/Scripts directory
+images/src/Scripts/**
