@@ -1,0 +1,3 @@
+# ignore all venv folders in stonks directory
+stonks/venv/
+01/stonks/
