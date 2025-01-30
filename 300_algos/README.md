@@ -71,3 +71,11 @@ print("Equilibrium index is:", {index})
 <a>
   <img src="https://github.com/stan-alam/Python/blob/develop/300_algos/images/01/300plusPyAlgo01%20-%20page%2013.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/300_algos/images/01/300plusPyAlgo01%20-%20page%2014.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/300_algos/images/01/300plusPyAlgo01%20-%20page%2015.png" width="80%" height="80%">
+</a>
