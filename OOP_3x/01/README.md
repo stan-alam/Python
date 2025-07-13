@@ -1,161 +1,161 @@
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%200.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%200.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%201.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%201.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%202.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%202.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%203.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%203.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204A.png" width="80%" height="80%">
-</a>
-
-<p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" width="50%" height="50%">
-</p>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204B.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%205.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%206.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/12A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/11A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%204B.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%205.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%206.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/13A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/12A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207C.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%208.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%209.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010A_edited.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207B.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/14A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/13A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%207C.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2011.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%208.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2012.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%209.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2013.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2014.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2015A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010A_edited.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/16A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/14A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2015B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2010B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2016.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2011.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2017.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2012.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A_edit.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2013.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2014.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2015A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/18A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/16A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2015B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2016.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2017.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018A_edit.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/19A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/18A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2018B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2020.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/20A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/19A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2019B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2022.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2020.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021A.png" alt="2048" width="500"/>
+</a>
+
+<p align="center">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/20A.svg" alt="2048" width="400"/>
+</p>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2021B.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2022.png" alt="2048" width="500"/>
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
@@ -163,53 +163,53 @@
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2023B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2024.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2024.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2025.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2025.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2026A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2026A.png" alt="2048" width="500"/>
 </a>
 
 https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%201.png
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2026B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2026B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2027.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2027.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2028.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2028.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2029.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2029.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2030.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2030.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2031.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2031.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2032edit.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2032edit.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033A.png" alt="2048" width="500"/>
 </a>
 
 <a>
@@ -217,23 +217,23 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2033B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/UML_seq.svg" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2034.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2034.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2035.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2035.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2036A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2036A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
@@ -241,15 +241,15 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2036B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2036B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2037.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2037.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2038A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2038A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
@@ -257,11 +257,11 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2038B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2038B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2039.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2039.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
@@ -269,21 +269,21 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2040.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2040.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2041A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2041A.png" alt="2048" width="500"/>
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/32A.svg" width="50%" height="50%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/32A.svg" alt="2048" width="400"/>
 </p>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2041B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2041B.png" alt="2048" width="500"/>
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2042.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%2042.png" alt="2048" width="500"/>
 </a>
