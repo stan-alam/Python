@@ -237,7 +237,7 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/29A.svg" width="75%" height="75%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/29A.svg" alt="2048" width="500"/>
 </p>
 
 <a>
@@ -253,7 +253,7 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/30A.svg" width="75%" height="75%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/30A.svg" alt="2048" width="500"/>
 </p>
 
 <a>
@@ -265,7 +265,7 @@ https://github.com/stan-alam/Python/blob/develop/text/images/01/pythontxt%20-%20
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/31A.svg" width="75%" height="75%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/svg/31A.svg" alt="2048" width="500"/>
 </p>
 
 <a>
