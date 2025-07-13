@@ -1,5 +1,5 @@
 <a>
-  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%200.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/Python/blob/develop/OOP_3x/images/01/oopP3%20-%200.png" alt="2048" width="500"/> 
 </a>
 
 <a>
